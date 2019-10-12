@@ -5,11 +5,23 @@ output:
     orientation: rows
 ---
 
+<style>                     
+.navbar, [data-toggle=tab], .navbar-brand{ 
+  background-color:#003366!important; 
+  border-color:#003366; 
+  color:white!important; 
+}
+.bgred {
+  background-color:#003366;
+  color:white;
+}
+</style>       
+
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
 
-Home
+Home 
 =======================================================================
 
 Row {data-height=100}
@@ -24,6 +36,20 @@ Row
 
 ```{r engagement_photo, out.height="45%", out.width="45%"}
 knitr::include_graphics("C:/Users/lucke/repos/cttnguyen.github.io/engagement.JPG")
+```
+
+Row
+-----------------------------------------------------------------------
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(
+    src="timecounter.html",
+    width="350", 
+    height="150",
+    scrolling="no", 
+    seamless="seamless", 
+    frameBorder="0"
+  )
 ```
 
 Events
