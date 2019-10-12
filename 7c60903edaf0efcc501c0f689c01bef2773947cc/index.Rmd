@@ -29,16 +29,18 @@ Row {data-height=100}
 
 #### Crystal and Daniel are Getting Married!
 
-##### More information coming soon!
+##### Cypress, TX
 
-Row
+##### 2.27.2021
+
+Row {data-height=100}
 -----------------------------------------------------------------------
 
-```{r engagement_photo, out.height="45%", out.width="45%"}
+```{r engagement_photo, out.height="250px", out.width="250px"}
 knitr::include_graphics("C:/Users/lucke/repos/cttnguyen.github.io/engagement.JPG")
 ```
 
-Row
+Row {data-height=100}
 -----------------------------------------------------------------------
 
 ```{r, echo=FALSE}
