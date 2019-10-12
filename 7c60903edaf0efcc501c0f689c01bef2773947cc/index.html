@@ -2587,16 +2587,31 @@ window.FlexDashboardComponents.push({
 <div id="dashboard-container">
 
 <style>                     
-.navbar {
-  background-color:white;
-  border-color:white;
+.navbar, [data-toggle=tab], .navbar-brand{ 
+  background-color:#003366!important; 
+  border-color:#003366; 
+  color:white!important; 
 }
-.navbar-brand {
-color:#003366!important;
+.bgred {
+  background-color:#003366;
+  color:white;
 }
 </style>
 <div id="home" class="section level1">
 <h1>Home</h1>
+<div id="row" class="section level2">
+<h2>Row</h2>
+<div id="section" class="section level3">
+<h3></h3>
+<div id="crystal-and-daniel-are-getting-married" class="section level4">
+<h4>Crystal and Daniel are Getting Married!</h4>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<iframe src="timecounter.html" width="350" height="150" scrolling="no" seamless="seamless" frameBorder="0"></iframe>
+</div>
+</div>
+</div>
 </div>
 <div id="events" class="section level1">
 <h1>Events</h1>
@@ -2643,7 +2658,7 @@ $(document).ready(function () {
   FlexDashboard.init({
     theme: "cosmo",
     fillPage: true,
-    orientation: "columns",
+    orientation: "rows",
     storyboard: false,
     defaultFigWidth: 576,
     defaultFigHeight: 460,

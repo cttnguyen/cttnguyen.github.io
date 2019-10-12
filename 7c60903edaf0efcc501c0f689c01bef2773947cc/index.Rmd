@@ -2,26 +2,44 @@
 title: "Crystal and Daniel's Wedding"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+    orientation: rows
 ---
 
 <style>                     
-.navbar {
-  background-color:white;
-  border-color:white;
+.navbar, [data-toggle=tab], .navbar-brand{ 
+  background-color:#003366!important; 
+  border-color:#003366; 
+  color:white!important; 
 }
-.navbar-brand {
-color:#003366!important;
+.bgred {
+  background-color:#003366;
+  color:white;
 }
-</style>    
+</style>       
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
 
-Home
+Home 
 =======================================================================
+
+Row 
+-----------------------------------------------------------------------
+### 
+
+#### Crystal and Daniel are Getting Married!
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(
+    src="timecounter.html",
+    width="350", 
+    height="150",
+    scrolling="no", 
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```
 
 Events
 =======================================================================
