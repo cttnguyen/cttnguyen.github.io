@@ -6,6 +6,16 @@ output:
     vertical_layout: fill
 ---
 
+<style>                     
+.navbar {
+  background-color:white;
+  border-color:white;
+}
+.navbar-brand {
+color:#003366!important;
+}
+</style>    
+
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
