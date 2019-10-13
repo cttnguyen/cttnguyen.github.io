@@ -62,9 +62,6 @@ Row {data-height=200}
 
 ##### 2.27.2021
 
-Row {data-height=100}
------------------------------------------------------------------------
-
 ```{r engagement_photo, out.height="250px", out.width="250px"}
 knitr::include_graphics("../engagement.JPG")
 ```
