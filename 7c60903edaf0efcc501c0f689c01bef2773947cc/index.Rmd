@@ -1,19 +1,45 @@
 ---
-title: "Crystal and Daniel's Wedding"
+title: ""
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
 ---
 
 <style>                     
+@font-face {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alex Brush Regular'), local('AlexBrush-Regular'), url(https://fonts.gstatic.com/s/alexbrush/v11/SZc83FzrJKuqFbwMKk6EhUXz7Q.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+}
+
 .navbar, [data-toggle=tab], .navbar-brand{ 
   background-color:#003366!important; 
   border-color:#003366; 
   color:white!important; 
+  font-family: Amatic SC;
+  font-size: 20pt;
+  text-align: center;
+  display: inline-block;
 }
 .bgred {
   background-color:#003366;
   color:white;
+}
+h1,h2,h3,h4{
+  font-family: Alex Brush;
+  font-size: 96pt;
+  color: #b76e79;
+  font-style: italic;
+}
+body{
+  text-align: center;
 }
 </style>       
 
@@ -27,7 +53,7 @@ Home
 Row {data-height=100}
 -----------------------------------------------------------------------
 
-#### Crystal and Daniel are Getting Married!
+#### The Adventure Begins
 
 ##### Cypress, TX
 
@@ -37,7 +63,7 @@ Row {data-height=100}
 -----------------------------------------------------------------------
 
 ```{r engagement_photo, out.height="250px", out.width="250px"}
-knitr::include_graphics("C:/Users/lucke/repos/cttnguyen.github.io/engagement.JPG")
+knitr::include_graphics("../engagement.JPG")
 ```
 
 Row {data-height=100}
