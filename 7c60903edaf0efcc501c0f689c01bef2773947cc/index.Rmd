@@ -158,6 +158,9 @@ FAQs
 
 ##### Frequently Asked Questions
 
+Column {data-width=900}
+-----------------------------------------------------------------------
+
 <br>
 
 <div align="left">
