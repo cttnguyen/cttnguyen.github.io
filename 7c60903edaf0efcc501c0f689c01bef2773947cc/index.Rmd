@@ -189,8 +189,8 @@ Column {data-width=900}
 </div>
 
 <center>
-```{r bishop_photo, out.height="350px", out.width="350px", out.extra="style='transform:rotate(90deg);'", fig.alilgn="center"}
-knitr::include_graphics("../bishop.JPG")
+```{r bishop_photo, out.height="350px", out.width="525px", fig.alilgn="center"}
+knitr::include_graphics("../bishop_on_sweaters.jpg")
 ```
 
 </div>
@@ -214,7 +214,10 @@ I am dedicating this blog to all things DIY that Daniel and I work on throughout
 
 If you didn't already know, I really love crafting. The process of taking raw materials and creating something appreciable brings me great joy whether it's baking, wood crafting, or scrapbooking. Until recently, I have always been a busy student without a lot of time available for crafting. However, I now work that wonderful 9-5 and, better yet, have an occassion to take on some really great crafting projects: our engagement! 
 
-photo from our engagement day
+<center>
+```{r engagement_photo_filtered, out.height="350px", out.width="350px",  fig.alilgn="center"}
+knitr::include_graphics("../engagement_filtered.JPG")
+```
 
 When we first sat down to discuss the vision of our wedding and what experience we wanted to walk away with, we agreed that we wanted our personality as a couple to really shine through the decisions. Rather than purchasing all of our wedding "stuff," we figured we could save a few bucks by doing some of it ourselves. Moreover, we could better tailor our products when building our wedding brand to be the same across everything we distribute, starting with our wedding website.
 
