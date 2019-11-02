@@ -27,7 +27,6 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
 
 
 
-
 /* define colors for navigation bar */
 .navbar, [data-toggle=tab], .navbar-brand{ 
   background-color:#003366!important; 
@@ -38,13 +37,25 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
   font-family: Neris Thin;
 }
 /* define colors for current tab */
-.navbar-nav li a:hover, .navbar-nav > .active > a {
+.navbar-nav > .active > a {
   background-color:#003366!important; 
   border-color:#003366; 
   color:#b76e79!important;
   font-size: 16pt;
   display: inline-block;
   font-family: Neris Thin;
+  font-weight: bold;
+  border-bottom-width: medium;
+}
+/* define colors for hovering */
+.navbar-nav li a:hover {
+  background-color:#003366!important; 
+  border-color:#003366; 
+  color:#b76e79!important;
+  font-size: 16pt;
+  display: inline-block;
+  font-family: Neris Thin;
+  text-align:center;
 }
 /* define colors for something */
 .bgred {
