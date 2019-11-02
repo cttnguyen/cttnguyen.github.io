@@ -6,12 +6,6 @@ output:
     vertical_layout: scroll
 ---
 <style>
-body{
-  text-align: center;
-  width: 1200px;
-  margin: auto;
-}
-
 /* define new fonts */
 @font-face {
 font-family: 'Neris Thin';
@@ -39,15 +33,22 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
 }
 /* define colors for something */
 .bgred {
-  background-color:#003366;
-  color:white;
+  background-color:white !important;
+  color:white !important;
+}
+body{
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  font-size: 14pt;
+  font-family: Neris Thin;
 }
 
 
 h3{
   color: #003366;
+  font-size: 24pt;
 }
-
 h4{
   font-style: normal;
   font-size: 24pt;
@@ -59,6 +60,19 @@ h5{
   color: #b76e79;
   font-family: TheArtist;
 }
+h6{
+  font-style: normal;
+  font-size: 18pt;
+  color: #003366;
+  font-family: Neris Thin;
+}
+.nobullet li {
+  list-style-type: none;
+  font-size: 14pt;
+  color: gray;
+  font-family: Neris Thin;
+}
+
 </style>
 
 ```{r setup, include=FALSE}
@@ -69,34 +83,22 @@ library(htmltools)
 Home
 ================================================
 
-Row {data-height=300}
-------------------------------------------------
-
-### The Adventure Begins for {.no-title}
-
-#### The Adventure Begins for
+<br>
 
 ##### Crystal & Daniel
+#### Are Getting Married!
+
 Cypress, TX
 
 2.27.2021
 
 
-Row {data-height=25}
-------------------------------------------------
-
-
-Row {data-height=750}
-------------------------------------------------
-### {.no-title}
 ![](../engagement.JPG){width=80%}
 
 
 
 
-Row
-------------------------------------------------
-### About Us
+#### About Us
 
 Daniel and Crystal met in August of 2014 at the University of North Carolina (UNC). Daniel began his graduate studies in 2013, and, when Crystal arrived on campus the following year, they took little to no notice of one another despite being in the same lab group under the same advisor and having neighboring desks. One year later (Fall semester of 2015), former high school choir nerd Crystal decided to enroll in voice lessons. Naturally, she needed an accompanist. Lucky for her, labmate Daniel received a Bachelor of Arts in music performance on the piano! It was not long before Crystal and Daniel were headed out to practice rooms on the regular for "jam sessions" with music genres ranging from opera to musical theatre to pop. 
 
@@ -123,95 +125,147 @@ htmltools::tags$iframe(
   )
 ```
 
-Row {data-height=50}
-------------------------------------------------
+####  The I Do Crew
 
-### The I Do Crew {.no-title}
+<div class = "row">
+<div class = "col-md-3">
+**Casey**
 
-#### The I Do Crew
+Some stuff about Casey 
+</div>
+<div class = "col-md-3">
+**Michael**
+</div>
+<div class = "col-md-3">
+**Anna**
+</div>
+<div class = "col-md-3">
+**Nuvan**
+</div>
+</div>
 
-Row
--------------------------------------------------
 
-### Casey
+<div class = "row">
+<div class = "col-md-3">
+**Jonathan**
 
-### Michael
+Some stuff about Casey 
+</div>
+<div class = "col-md-3">
+**Jonathan**
+</div>
+<div class = "col-md-3">
+**Joshua**
+</div>
+<div class = "col-md-3">
+**Barbara**
+</div>
+</div>
 
-### Anna
-
-### Nuvan
-
-Row
--------------------------------------------------
-
-### Jonathan
-
-### Jonathan
-
-### Joshua
-
-### Barbara
-
-Row {data-width=50}
--------------------------------------------------
-
-### Graham
+<div class = "row">
+<div class = "col-md-4">
+invisible text
+</div>
+<div class = "col-md-4">
+**Graham**
+</div>
+<div class = "col-md-4">
+invisible text
+</div>
+</div>
 
 Events {data-orientation=columns}
 =======================================================================
 
-##### More information coming soon!
+#### Events
+
+<br>
+<br>
+
+###### More information coming soon!
 
 Travel
 =======================================================================
 
-##### More information coming soon!
+#### Travel
+
+<br>
+<br>
+
+###### More information coming soon!
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(
+    src="WeddingMap.html",
+    width="640", 
+    height="480",
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```
 
 Registry
 =======================================================================
 
-##### More information coming soon!
+#### Wedding Registry
+
+<br>
+<br>
+
+###### More information coming soon!
+
 
 RSVP
 =======================================================================
 
-##### Link to google form here
+#### Répondez S'il Vous Plaît
+
+<br>
+<br>
+
+###### Form coming soon!
+
+Did you know RSVP stood for that?
 
 Gallery
 =======================================================================
 
-##### More information coming soon!
+#### Gallery
+
+<br>
+<br>
+
+###### Photos coming soon!
 
 FAQs
 =======================================================================
 
-##### Frequently Asked Questions
+#### Frequently Asked Questions
 
-Column {data-width=900}
------------------------------------------------------------------------
-
+<br>
 <br>
 
 <div align="left">
-###### 1. What is a Vietnamese tea ceremony?
+**1. What is a Vietnamese tea ceremony?**
 
 <div class="nobullet">
 * This is a great question! I don't really know either, but I'll have Crystal fill in this section when she gets a chance.
 </div>
 
-###### 2. What is the recommended attire?
+
+**2. What is the recommended attire?**
 
 <div class="nobullet">
 * Daniel will be wearing a suit. Crystal will be wearing a floor-length dress. We are recommending "dressy casual" to the Tea Ceremony and semi-formal to the wedding on Saturday. To us, dressy casual means anything that isn't jeans, and semiformal means ties without tuxes and dresses that don't have to be floor length. However, we hope that you will feel free to come as you are!
 </div>
 
-###### 3. Are my kids invited? 
+**3. Are my kids invited?**
 
 <div class="nobullet">
 * If their name is on the inner envelope of the invitation, they are most certainly welcome!
 </div>
 
-###### 4. Who is Bishop?
+**4. Who is Bishop?**
 
 <div class="nobullet">
 * Since you've made it this far you must know the password to this site, so you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on his cat bed, also known as, "Crystal's sweaters."
@@ -227,12 +281,12 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 DIY Wedding Blog
 =======================================================================
 
-##### A Do It Yourself Wedding Blog
+#### A Do It Yourself Wedding Blog
 
-Column {data-width=900}
------------------------------------------------------------------------
+<br>
+<br>
 
-###### Welcome & How to Host a Website Using flexdashboard and GitHub Pages
+###### Welcome & How to Host a Website Using flexdashboard and GitHub Pages 
 
 10/15/2019
 
