@@ -3,9 +3,15 @@ title: ""
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
+    vertical_layout: scroll
 ---
+<style>
+body{
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+}
 
-<style>      
 /* define new fonts */
 @font-face {
 font-family: 'Neris Thin';
@@ -13,12 +19,11 @@ font-style: normal;
 font-weight: normal;
 src: local('Neris Thin'), url('Neris-Thin.woff') format('woff');
 }
-@font-face {
-  font-family: 'Blancha Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Blancha Regular'), url('Blancha.woff') format('woff');
+@font-face{
+    font-family: 'TheArtist';
+    src: local('TheArtist'), url("TheArtist.woff") format("woff");
 }
+span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
 
 
 
@@ -39,70 +44,72 @@ src: local('Neris Thin'), url('Neris-Thin.woff') format('woff');
 }
 
 
-
-
-/* define font for headers */
-h4{
-  font-family: Blancha Regular;
-  font-size: 78pt;
-  color: #b76e79;
-  /* font-style: italic; */
+h3{
+  color: #003366;
 }
-h5{
+
+h4{
   font-style: normal;
   font-size: 24pt;
   color: #003366;
   font-family: Neris Thin;
 }
-h6{
-  font-size: 14pt;
-  font-style: normal;
-  font-family: Neris Thin;
+h5{
+  font-size: 96pt;
+  color: #b76e79;
+  font-family: TheArtist;
 }
-/* center text on all tabs */
-body{
-  text-align: center;
-  font-family: Neris Thin;
-  width: 900px;
-  margin: auto;
-}
-/* define a new class of lists without bullet points */
-.nobullet li {
-  list-style-type: none;
-  font-size: 12pt;
-  color: gray;
-  font-family: Neris Thin;
-}
-</style>       
+</style>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(htmltools)
 ```
 
-Home {data-orientation=columns}
-=======================================================================
+Home
+================================================
 
-Row {data-height=500}
------------------------------------------------------------------------
+Row {data-height=300}
+------------------------------------------------
 
-<center>
-##### The Adventure Begins for 
+### The Adventure Begins for {.no-title}
 
-<br>
+#### The Adventure Begins for
 
-#### Crystal  &  Daniel
+##### Crystal & Daniel
+Cypress, TX
 
-<br>
+2.27.2021
 
-```{r engagement_photo}
-knitr::include_graphics("../engagement.JPG")
-```
 
-<br>
+Row {data-height=25}
+------------------------------------------------
 
-###### Cypress, TX
-###### 2.27.2021
+
+Row {data-height=750}
+------------------------------------------------
+### {.no-title}
+![](../engagement.JPG){width=80%}
+
+
+
+
+Row
+------------------------------------------------
+### About Us
+
+Daniel and Crystal met in August of 2014 at the University of North Carolina (UNC). Daniel began his graduate studies in 2013, and, when Crystal arrived on campus the following year, they took little to no notice of one another despite being in the same lab group under the same advisor and having neighboring desks. One year later (Fall semester of 2015), former high school choir nerd Crystal decided to enroll in voice lessons. Naturally, she needed an accompanist. Lucky for her, labmate Daniel received a Bachelor of Arts in music performance on the piano! It was not long before Crystal and Daniel were headed out to practice rooms on the regular for "jam sessions" with music genres ranging from opera to musical theatre to pop. 
+
+Soon after these jam sessions began, Crystal developed a big, fat crush on Daniel. Cute, nerdy, AND encourages shameless Disney karaoke? Who could resist? Daniel. Daniel could resist. After an ENTIRE YEAR of extensive Disney song playing, Crystal and Daniel had a discussion on street taco cravings. On one lucky evening in September 2016, Crystal half-jokingly texted Daniel, asking if he was interested in late night tacos. To her great surprise, Daniel agreed. Now on the one hand, this was excellent news. Was Daniel interested? Maybe! On the other hand, Crystal just ate a massive burrito for dinner and had little to no appetite for any more food for perhaps another 4.5 days. But she couldn't back out ___now___! 
+
+That evening, Crystal went out and ate exactly one taco full of regret. Daniel and Crystal then spent about four hours in the University quad in a new kind of jam session -- with Daniel on duet vocals and playing guitar. Can you say "dreamy?" When they finally went home, Crystal was on cloud 9, and Daniel was saying to himself "I just spent a pretty long time with this girl. That wasn't so bad." 
+
+Eventually, "not so bad" turned into something more. Crystal put the ball clearly in Daniel's court (for details, ask her to tell the story about the guy she ___thought___ she was in a relationship with but actually wasn't!). For those of you who don't know her, subtlty is not a strong point for Crystal. Daniel caught on -- it was hard not to -- and he soon confessed his "something more" feelings and launched their official relationship. 
+
+Daniel and Crystal's ensuing relationship achieved 1 ER visit, 2 perforated eardrums, 3 more years of grad school misery/accomplishments, and countless late nights of playing guitar in the park. After they both became Doctors of Philosphy in Biostatistics, Daniel and Crystal made a big move up north, to Boston, MA, for their first big kid jobs. When their 3rd anniversary came around, they made plans to visit Cape Cod (or "the Cod," as Crystal accidentally calls it). 
+
+On this trip, Crystal gave Daniel a new title to add to his name: Lord. Crystal bought Daniel land in Scotland. Please now refer to him as Dr. Daniel J. Luckett, Lord of Glencoe and place. How could Daniel compete with ___that___? (spoiler alert: it's a ring). Daniel spent the morning trying to get Crystal in a "romantic" mood by asking her to reminisce about their greatest memories. Crystal spent the morning having a severe case of acute attention deficit disorder, pointing out random rocks and bugs on the beach instead of recalling that time that she burnt her hand and ended up in the ER. They returned to the beach just before sunset, this time with guitar in hand. After a few duets, Daniel serenaded Crystal with a song he wrote. As if that is not gooey enough, he then pulled out their "Adventure Book," a scrapbook of their relationship. He had added to the book a number of events that had occurred since its last update, including their cruise vacation with Crystal's family and moving to Boston. The last page of the book was bare except for a caption which scribbled,  "9/21/2019: The day you said 'yes!' (Hopefully)."  
+
 
 <br>
 
@@ -111,22 +118,44 @@ htmltools::tags$iframe(
     src="timecounter.html",
     width="200", 
     height="100",
-    scrolling="no", 
     seamless="seamless", 
     frameBorder="0"
   )
 ```
 
-<br>
+Row {data-height=50}
+------------------------------------------------
 
-##### About the Couple
+### The I Do Crew {.no-title}
 
-###### Two columns, one for Daniel, one for Crystal. Headshot and short blurb
+#### The I Do Crew
 
-##### The I Do Crew
+Row
+-------------------------------------------------
 
-###### Headshots for each. VIPs on own line. Remaining on one line. Graham gets his own? Name and a quick one liner, e.g., Casey Gilbert, Crystal's friend since the 5th grade
+### Casey
 
+### Michael
+
+### Anna
+
+### Nuvan
+
+Row
+-------------------------------------------------
+
+### Jonathan
+
+### Jonathan
+
+### Joshua
+
+### Barbara
+
+Row {data-width=50}
+-------------------------------------------------
+
+### Graham
 
 Events {data-orientation=columns}
 =======================================================================
