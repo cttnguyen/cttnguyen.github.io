@@ -1,0 +1,28 @@
+---
+title: "Travel"
+author: "Crystal Nguyen"
+date: "November 2, 2019"
+output: html_document
+---
+
+###### Lodging
+
+More information coming soon!
+
+###### Getting Here
+
+###### Getting Around
+
+###### Things To Do
+
+
+
+```{r, echo = FALSE}
+htmltools::tags$iframe(
+    src="WeddingMap.html",
+    width="660", 
+    height="500",
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```

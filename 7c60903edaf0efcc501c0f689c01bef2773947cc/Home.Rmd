@@ -1,0 +1,97 @@
+---
+title: "Home"
+author: "Crystal Nguyen"
+date: "November 2, 2019"
+output: html_document
+---
+
+##### Crystal & Daniel
+#### Are Getting Married!
+
+Cypress, TX
+
+2.27.2021
+
+
+![](../engagement.JPG){width=80%}
+
+
+
+
+#### About Us
+
+Daniel and Crystal met in August of 2014 at the University of North Carolina. Daniel began his graduate studies in 2013, and, when Crystal arrived on campus the following year, they took little to no notice of one another despite being in the same lab group and having neighboring desks. One year later (Fall of 2015), former high school choir nerd Crystal decided to enroll in voice lessons. Naturally, she needed an accompanist. Lucky for her, labmate Daniel had previously earned a bachelor of arts in piano performance. It wasn't long before Crystal and Daniel were regularly headed out to practice rooms for jam sessions, with music genres ranging from opera to musical theatre to pop. 
+
+Soon after these jam sessions began, Crystal developed a big, fat crush on Daniel. After an entire year of extensive playing of Disney songs, Crystal and Daniel had a discussion on street taco cravings. On one lucky evening in September 2016, Crystal half-jokingly texted Daniel, asking if he was interested in late night tacos. To her great surprise, Daniel agreed. Now on the one hand, this was excellent news. Was Daniel interested? Maybe! On the other hand, Crystal had just eaten a massive burrito for dinner and had little to no appetite for any more food for perhaps another 4.5 days. But she couldn't back out ___now___! 
+
+That evening, after begrudgingly eating a taco, Daniel and Crystal spent about four hours in the University quad in a new kind of jam session -- with Daniel on vocal harmonies while simultaneously playing guitar. Can you say "dreamy?" When they finally went home, Crystal was on cloud 9, and Daniel was saying to himself "I just spent a pretty long time with this girl. That wasn't so bad." 
+
+Eventually, "not so bad" turned into something more. For those of you who don't know her, subtlty is not a strong point for Crystal. Daniel caught on -- it was hard not to -- and he soon confessed his feelings and launched their official relationship on September 20th of 2016. 
+
+Daniel and Crystal's ensuing relationship achieved 1 ER visit, 2 perforated eardrums, 3 more years of grad school misery/accomplishments, and countless late nights of playing music in the park. After they both became Doctors of Philosphy, Daniel and Crystal made a big move up north to Boston, MA for their first big kid jobs. When their 3rd anniversary came around, they made plans to visit Cape Cod (or "the Cod," as Crystal accidentally calls it). 
+
+On this trip, Crystal gifted Daniel a new title: Lord -- she bought him a small plot of land in Scotland. From here on out, please refer to him as Dr. Daniel J. Luckett, Lord of Glencoe and Lochaber, (just kidding). How could Daniel compete with ___that___? (spoiler alert: with a ring). They headed out to the beach just before sunset with guitar in hand. After a few duets, Daniel serenaded Crystal with a song he wrote. As if that wasn't gooey enough, he then pulled out their "Adventure Book," a scrapbook of their relationship. He had added pages for a number of events that had occurred since the scrapbook's last update, including their cruise vacation with Crystal's family and their move to Boston. The last page of the book was bare except for a caption, which read "9/21/2019: The day you said 'yes!'"  
+
+
+<br>
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(
+    src="timecounter.html",
+    width="200", 
+    height="100",
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```
+
+####  The I Do Crew
+
+<div class = "row">
+<div class = "col-md-3">
+**Casey**
+
+Some stuff about Casey 
+</div>
+<div class = "col-md-3">
+**Michael**
+
+Some stuff about Michael
+</div>
+<div class = "col-md-3">
+**Anna**
+</div>
+<div class = "col-md-3">
+**Nuvan**
+</div>
+</div>
+
+
+<div class = "row">
+<div class = "col-md-3">
+**Jonathan**
+
+Some stuff about Casey 
+</div>
+<div class = "col-md-3">
+**Jonathan**
+</div>
+<div class = "col-md-3">
+**Joshua**
+</div>
+<div class = "col-md-3">
+**Barbara**
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-md-4">
+<p hidden>This paragraph should be hidden.</p>
+</div>
+<div class = "col-md-4">
+**Graham**
+</div>
+<div class = "col-md-4">
+<p hidden>This paragraph should be hidden.</p>
+</div>
+</div>
