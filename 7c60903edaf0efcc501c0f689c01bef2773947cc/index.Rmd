@@ -178,7 +178,10 @@ Gallery
 <br>
 <br>
 
-###### Photos coming soon!
+```{r Gallery, child = 'Gallery.Rmd', eval = TRUE}
+
+
+```
 
 FAQs
 =======================================================================
