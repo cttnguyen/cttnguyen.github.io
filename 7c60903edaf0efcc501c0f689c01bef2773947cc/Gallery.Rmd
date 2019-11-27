@@ -1,0 +1,27 @@
+---
+title: "Gallery"
+author: "Crystal Nguyen"
+date: "November 2, 2019"
+output: html_document
+---
+
+![](./Engagements/391a4153.jpg){width=90%}
+
+![](./Engagements/391a4262-1.jpg){width=90%}
+
+![](./Engagements/391a4243-1.jpg){width=90%}
+
+![](./Engagements/391a4229.jpg){width=90%}
+
+![](./Engagements/391a4289.jpg){width=90%}
+
+![](./Engagements/391a4462-1.jpg){width=90%}
+
+
+![](./Engagements/391a4465-1.jpg){width=90%}
+
+![](./Engagements/391a4508.jpg){width=90%}
+
+![](./Engagements/391a4127.jpg){width=90%}
+
+![](./Engagements/391a4174.jpg){width=90%}
