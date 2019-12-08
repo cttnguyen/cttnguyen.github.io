@@ -114,7 +114,9 @@ Events {data-orientation=columns}
 <br>
 <br>
 
-###### More information coming soon!
+```{r Events, child = 'Events.Rmd', eval = TRUE}
+
+```
 
 Travel
 =======================================================================
