@@ -9,14 +9,14 @@ output: html_document
 **1. What is a Vietnamese tea ceremony?**
 
 <div class="nobullet">
-* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
+* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
 incense in honor of deceased relatives of the bride and groom. 
 </div>  
   
 **2. What should we do when we arrive at the tea ceremony?**
 
 <div class="nobullet">
-* The family of the bride may arrive as early as 4:30 PM and gather inside the santuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to form the procession. The procession is led by the grooms's male relatives. They are followed by the groom, the rest of the groom's family, and finally, friends of the bride and groom. 
+* The family of the bride may arrive as early as 4:30 PM and gather inside the santuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to form the procession. The procession is led by some of the grooms's male relatives. They are followed by the groom, the rest of the groom's family, and finally, friends of the bride and groom. 
 </div>
 
 **3. Where do we sit for the tea ceremony?**
