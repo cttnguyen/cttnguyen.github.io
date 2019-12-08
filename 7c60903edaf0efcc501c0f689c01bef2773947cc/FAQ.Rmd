@@ -9,29 +9,41 @@ output: html_document
 **1. What is a Vietnamese tea ceremony?**
 
 <div class="nobullet">
-* The tea ceremony is the traditional wedding ceremony performed in Vietnamese culture. Rather than a set of friends as the bridesmaids and groomsmen, male relatives of the groom and female relatives of the bride take part in the procession. Starting outside, the groomsmen lead this procession, followed by the groom, the groom's immediate family, and the groom's extended family. **Friends of either the bride or groom are asked to follow after the extended family.** The groomsmen bare gifts for the family of the bride; these usually consist of cookies, tea, wine, and fruit. They are welcomed at the threshold by the bridesmaids, who accept the gifts as the procession enters then by the remainder of the bride's family inside. Once all have entered, the gifts are placed at the altar, and introductions between the families are made. Upon both sets of parents' agreement for marriage, the bride is escorted to the altar by her mother. The bride and groom then visit each of their parents and grandparents, pouring each of these couples tea while receiving blessings or marital advice in return. This portion of the ceremony is meant to be quite intimate; the guests are usually unable to hear the contents of the blessings and advice. Finally, tea is poured and incense are burned in honor of the bride and groom's deceased ancestors. 
-</div>
-
-
-**2. What is the recommended attire?**
+* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
+incense in honor of deceased relatives of the bride and groom. 
+</div>  
+  
+**2. What should we do when we arrive at the tea ceremony?**
 
 <div class="nobullet">
-* For the wedding on Saturday, we recommend semi-formal: ties without tuxes and dresses that don't necessarily have to be floor length. 
-
-* We recommend "dressy casual" to the tea ceremony: anything a step up from jeans. Also acceptable are Vietnamese ao dai, a traditional Vietnamese style of clothing.
-
-* However, we hope that you will feel free to come as you are whether that's jeans or your prom dress!
+* The family of the bride may arrive as early as 4:30 PM and gather inside the santuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to form the procession. The procession is led by the grooms's male relatives. They are followed by the groom, the rest of the groom's family, and finally, friends of the bride and groom. 
 </div>
 
-**3. Is any part of the celebration outdoors?**
+**3. Where do we sit for the tea ceremony?**
+<div class="nobullet">
+* The front row is reserved for immediate family members taking part in the ceremony. Otherwise, guests may take their seats wherever they like.
+</div>
+
+**4. What is the recommended attire?**
+
+<div class="nobullet">
+* For the wedding on Saturday, we recommend semi-formal: suits but not 
+tuxes, and dresses that need not be floor length. 
+
+* For the tea ceremony on Friday, we recommend "dressy casual": anything a step up from jeans. Also acceptable are ao dai, a traditional Vietnamese style of clothing.
+
+* However, we hope that you will feel free to come as you are, whether that's jeans or your prom dress!
+</div>
+
+**5. Is any part of the celebration outdoors?**
 <div class="nobullet">
 * Yes, the wedding ceremony and cocktail hour will be held outdoors, barring any inclement weather.
 </div>
 
-**4. Who is Bishop?**
+**6. Who is Bishop?**
 
 <div class="nobullet">
-* Since you've made it this far you must know the password to this site, so you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on his cat bed, also known as, "Crystal's sweaters."
+* Since you've made it this far, you must know the password to this site, and you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on his cat bed, also known as "Crystal's sweaters."
 </div>
 
 <center>
@@ -43,27 +55,27 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 
 <div align="left">
 
-**5. Will Bishop be at the wedding?**
+**7. Will Bishop be at the wedding?**
 <div class="nobullet">
-* Unfortunately, not. Bishop is a loving cat that would not last any longer than 5 seconds outdoors.
+* Unfortunately not. Bishop is a loving cat that would not last longer than five seconds outdoors.
 </div>
 
-**6. Where can I find parking?**
+**8. Where can I find parking?**
 <div class="nobullet">
 * The lodging options, tea ceremony church, and wedding venue all have ample parking available for free.
 </div>
 
-**7. Will transportation be provided?**
+**9. Will transportation be provided?**
 <div class="nobullet">
 * This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings for wedding guests!
 </div>
 
-**8. Can I bring a guest or my kids?**
+**10. Can I bring a guest or my kids?**
 <div class="nobullet">
 * If their name is on the inner envelope of the invitation, they are most certainly welcome!
 </div>
 
-**9. How should I submit my RSVP?**
+**11. How should I submit my RSVP?**
 <div class="nobullet">
 * You may RSVP online or by mailing back the RSVP card found in your invitation.
 </div>
