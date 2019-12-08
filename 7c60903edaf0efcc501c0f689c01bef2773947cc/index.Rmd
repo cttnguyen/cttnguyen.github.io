@@ -180,6 +180,7 @@ Gallery
 <br>
 
 ```{r Gallery, child = 'Gallery.Rmd', eval = TRUE}
+
 ```
 
 FAQs
