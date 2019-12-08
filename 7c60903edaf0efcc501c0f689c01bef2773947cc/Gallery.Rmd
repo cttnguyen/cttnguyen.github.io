@@ -1,0 +1,31 @@
+---
+title: "Gallery"
+author: "Crystal Nguyen"
+date: "December 8, 2019"
+output: html_document
+---
+<!-- <div align="middle"> -->
+
+<!-- ```{r render_gallery} -->
+<!-- library(tidyverse) -->
+<!-- images <- data.frame(src = list.files('img')) %>%  -->
+<!--   mutate(src = as.character(src), -->
+<!--          txt = "A", -->
+<!--          date = as.Date("2019-10-01"), -->
+<!--          time = 0, -->
+<!--          msec = substr(src, 1, nchar(src) - 4), -->
+<!--          key = msec) -->
+<!-- lightbox_gallery(images, 'gallery', display = T) -->
+<!-- ``` -->
+
+<!-- </div> -->
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(
+    src="Gallery.html",
+    width="750", 
+    height="450",
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```

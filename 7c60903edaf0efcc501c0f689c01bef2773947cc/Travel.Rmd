@@ -11,10 +11,24 @@ More information coming soon!
 
 ###### Getting Here
 
+<div class = "row">
+<div class = "col-md-6">
+**George Bush Intercontinental Airport**
+</div>
+<div class = "col-md-6">
+**William P. Hobby Airport**
+</div>
+</div>
+
+
 ###### Getting Around
+
+More information coming soon!
+
 
 ###### Things To Do
 
+More information coming soon!
 
 
 ```{r, echo = FALSE}

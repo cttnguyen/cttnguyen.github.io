@@ -86,7 +86,7 @@ h6{
   list-style-type: none;
   font-size: 14pt;
   color: gray;
-  font-family: Neris Thin;
+  font-family: Neris Thin;  
 }
 
 </style>
@@ -94,6 +94,7 @@ h6{
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(htmltools)
+library(gallerier)
 ```
 
 Home
@@ -178,7 +179,8 @@ Gallery
 <br>
 <br>
 
-###### Photos coming soon!
+```{r Gallery, child = 'Gallery.Rmd', eval = TRUE}
+```
 
 FAQs
 =======================================================================

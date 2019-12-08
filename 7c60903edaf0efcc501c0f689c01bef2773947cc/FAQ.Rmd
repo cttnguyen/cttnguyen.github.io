@@ -9,20 +9,23 @@ output: html_document
 **1. What is a Vietnamese tea ceremony?**
 
 <div class="nobullet">
-* This is a great question! I don't really know either, but I'll have Crystal fill in this section when she gets a chance.
+* The tea ceremony is the traditional wedding ceremony performed in Vietnamese culture. Rather than a set of friends as the bridesmaids and groomsmen, male relatives of the groom and female relatives of the bride take part in the procession. Starting outside, the groomsmen lead this procession, followed by the groom, the groom's immediate family, and the groom's extended family. **Friends of either the bride or groom are asked to follow after the extended family.** The groomsmen bare gifts for the family of the bride; these usually consist of cookies, tea, wine, and fruit. They are welcomed at the threshold by the bridesmaids, who accept the gifts as the procession enters then by the remainder of the bride's family inside. Once all have entered, the gifts are placed at the altar, and introductions between the families are made. Upon both sets of parents' agreement for marriage, the bride is escorted to the altar by her mother. The bride and groom then visit each of their parents and grandparents, pouring each of these couples tea while receiving blessings or marital advice in return. This portion of the ceremony is meant to be quite intimate; the guests are usually unable to hear the contents of the blessings and advice. Finally, tea is poured and incense are burned in honor of the bride and groom's deceased ancestors. 
 </div>
 
 
 **2. What is the recommended attire?**
 
 <div class="nobullet">
-* Daniel will be wearing a suit. Crystal will be wearing a floor-length dress. We are recommending "dressy casual" to the Tea Ceremony and semi-formal to the wedding on Saturday. To us, dressy casual means anything that isn't jeans, and semiformal means ties without tuxes and dresses that don't have to be floor length. However, we hope that you will feel free to come as you are!
+* For the wedding on Saturday, we recommend semi-formal: ties without tuxes and dresses that don't necessarily have to be floor length. 
+
+* We recommend "dressy casual" to the tea ceremony: anything a step up from jeans. Also acceptable are Vietnamese ao dai, a traditional Vietnamese style of clothing.
+
+* However, we hope that you will feel free to come as you are whether that's jeans or your prom dress!
 </div>
 
-**3. Are my kids invited?**
-
+**3. Is any part of the celebration outdoors?**
 <div class="nobullet">
-* If their name is on the inner envelope of the invitation, they are most certainly welcome!
+* Yes, the wedding ceremony and cocktail hour will be held outdoors, barring any inclement weather.
 </div>
 
 **4. Who is Bishop?**
@@ -37,3 +40,42 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 ```
 
 </div>
+
+<div align="left">
+
+**5. Will Bishop be at the wedding?**
+<div class="nobullet">
+* Unfortunately, not. Bishop is a loving cat that would not last any longer than 5 seconds outdoors.
+</div>
+
+**6. Where can I find parking?**
+<div class="nobullet">
+* The lodging options, tea ceremony church, and wedding venue all have ample parking available for free.
+</div>
+
+**7. Will transportation be provided?**
+<div class="nobullet">
+* This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings for wedding guests!
+</div>
+
+**8. Can I bring a guest or my kids?**
+<div class="nobullet">
+* If their name is on the inner envelope of the invitation, they are most certainly welcome!
+</div>
+
+**9. How should I submit my RSVP?**
+<div class="nobullet">
+* You may RSVP online or by mailing back the RSVP card found in your invitation.
+</div>
+
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
