@@ -9,28 +9,24 @@ output: html_document
 **1. What is a Vietnamese tea ceremony?**
 
 <div class="nobullet">
-* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. 
-Starting outside, male relatives of the groom process bearing 
-gifts of cookies, tea, wine, 
-and fruit, followed by the groom and his family, and friends of the bride 
-and groom. The processional is welcomed at the threshold by female relatives of the bride 
-who accept the gifts and place them at the altar. The ceremony proceeds with 
-introductions of the families and statements of consent from the parents. 
-The bride is then escorted down the aisle by her mother. 
-The bride and groom pour tea for their parents and 
-grandparents while receiving blessings or marital advice. Note that this portion of 
-the ceremony is meant to be quite intimate, and guests are usually unable to hear what is 
-spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
+* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice. Note that this portion of the ceremony is meant to be quite intimate, and guests are usually unable to hear what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
 incense in honor of deceased relatives of the bride and groom. 
-
-</div>
+</div>  
+  
 **2. What should we do when we arrive at the tea ceremony?**
 
 <div class="nobullet">
-* Feel free to gather 
-outside the church to join in the traditional processional, led by the grooms's male 
-relatives carrying gifts, followed by the groom, the rest of the groom's family, 
-and finally, friends of the bride and groom. 
+* The family of the bride may arrive as early as 4:30 PM and gather inside the santuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to form the procession. 
+</div>
+
+**3. How do we line up for the tea ceremony procession?**
+<div class="nobullet">
+* The procession is led by the grooms's male relatives carrying gifts for the family of the bride. They are followed by the groom, the rest of the groom's family, and finally, friends of the bride and groom. 
+</div>
+
+**4. Where do we sit for the tea ceremony?**
+<div class="nobullet">
+* The front row is reserved for immediate family members taking part in the ceremony. Otherwise, guests may take their seats wherever they like.
 </div>
 
 
