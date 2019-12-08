@@ -5,6 +5,8 @@ date: "November 2, 2019"
 output: html_document
 ---
 
+
+
 ###### Lodging
 
 More information coming soon!
@@ -14,21 +16,20 @@ More information coming soon!
 <div class = "row">
 <div class = "col-md-6">
 **George Bush Intercontinental Airport**
+<br>
+35 minutes to Cypress
+<br>
+Recommended for most airlines
+
 </div>
 <div class = "col-md-6">
 **William P. Hobby Airport**
+<br>
+45 minutes to Cypress
+<br>
+Recommended for Southwest airlines
 </div>
 </div>
-
-
-###### Getting Around
-
-More information coming soon!
-
-
-###### Things To Do
-
-More information coming soon!
 
 
 ```{r, echo = FALSE}
@@ -40,3 +41,30 @@ htmltools::tags$iframe(
     frameBorder="0"
   )
 ```
+
+
+###### Getting Around
+
+More information coming soon!
+
+
+###### Things To Do
+<div align="left">
+**The Houston Zoo**
+<div class="nobullet">
+* 6200 Hermann Park Dr., Houston, TX 77030
+* The 2nd most visited zoo in the US and home to over 6,000 animals ([Visit](https://www.houstonzoo.org))
+</div>
+**Space Center Houston**
+<div class="nobullet">
+* 1601 NASA Pkwy., Houston, TX 77058
+* Two words: outer space ([Visit](https://spacecenter.org/))
+</div>
+**Houston Museum District**
+<div class="nobullet">
+* Includes 19 museums in 4 zones ([Visit](https://houmuse.org/))
+* Crystal's favorite: The museum of natural science
+</div>
+</div>
+
+
