@@ -16,7 +16,7 @@ incense in honor of deceased relatives of the bride and groom.
 **2. What should we do when we arrive at the tea ceremony?**
 
 <div class="nobullet">
-* The family of the bride may arrive as early as 4:30 PM and gather inside the sanctuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to follow the procession inside.
+* The family of the bride may arrive up to half an hour before the ceremony and gather inside the sanctuary. Family of the groom and any friends are asked to arrive by the start of the ceremony and gather outside to follow the procession inside.
 </div>
 
 <!-- **3. Where do we sit for the tea ceremony?** -->
@@ -30,7 +30,7 @@ incense in honor of deceased relatives of the bride and groom.
 * For the wedding on Saturday, we recommend semi-formal: suits but not 
 tuxes, and dresses that need not be floor length. 
 
-* For the tea ceremony on Friday, we recommend "dressy casual" ([see here](https://www.lifesavvy.com/2435/dress-code-guide-what-does-dressy-casual-mean/)). We also welcome ao dai, a traditional Vietnamese style of clothing, or any of your own culturally traditional attire.
+* For the tea ceremony on Friday, we recommend "dressy casual" ([see here](https://www.lifesavvy.com/2435/dress-code-guide-what-does-dressy-casual-mean/){target="_blank"}). We also welcome ao dai, a traditional Vietnamese style of clothing, or any  traditional attire from your culture.
 
 * However, we hope that you will feel free to come as you are, whether that's jeans or your prom dress!
 </div>
@@ -67,7 +67,7 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 
 **8. Will transportation be provided?**
 <div class="nobullet">
-* This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings for wedding guests!
+* This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings!
 </div>
 
 **9. Can I bring a guest or my kids?**
@@ -77,12 +77,12 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 
 **10. How should I submit my RSVP?**
 <div class="nobullet">
-* You may RSVP online or by mailing back the RSVP card found in your invitation.
+* You can RSVP online or by mailing back the RSVP card found in your invitation.
 </div>
 
 **11. Why is your website a little clunky?**
 <div class="nobullet">
-* We made it ourselves! We are by no means web developers, but we are proud to have used our statistical programming skills in an out of the box way to bring to you our very own, completely customized website. Details on how we did so are available in Crystal's blog, along with a variety of other DIY projects like making the wedding invitations. 
+* We made it ourselves! We are by no means web developers, but we are proud to have used our programming skills in an outside-the-box way to bring to you our very own, completely customized website. Details on how we did so are available in Crystal's blog, along with a variety of other DIY projects like making the wedding invitations. 
 </div>
 </div>
 
