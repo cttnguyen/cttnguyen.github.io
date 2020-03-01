@@ -13,7 +13,11 @@ Cypress, TX
 2.27.2021
 
 
-![](./Engagements/391a4472-3.jpg){width=100%}
+<!-- ![](./Engagements/391a4472-2.jpg){width=110%} -->
+
+```{r out.width="900px"}
+knitr::include_graphics("./Engagements/391a4472-2.jpg")
+```
 
 
 #### About Us
@@ -83,10 +87,9 @@ htmltools::tags$iframe(
 <div class = "col-md-4">
 <p hidden>This paragraph should be hidden.</p>
 </div>
-<div class = "col-md-4">
+<div class   = "col-md-4">
 **Graham**
-
-![](I Do Crew/graham.jpg){width=75%}
+![](I Do Crew/graham.jpg){width=80%}
 </div>
 <div class = "col-md-4">
 <p hidden>This paragraph should be hidden.</p>

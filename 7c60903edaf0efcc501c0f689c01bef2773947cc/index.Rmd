@@ -106,22 +106,22 @@ Home
 ```
 
 
-Events {data-orientation=columns}
+<!-- Events {data-orientation=columns} -->
+<!-- ======================================================================= -->
+
+<!-- #### Events -->
+
+<!-- <br> -->
+<!-- <br> -->
+
+<!-- ```{r Events, child = 'Events.Rmd', eval = TRUE} -->
+
+<!-- ``` -->
+
+Details
 =======================================================================
 
-#### Events
-
-<br>
-<br>
-
-```{r Events, child = 'Events.Rmd', eval = TRUE}
-
-```
-
-Travel
-=======================================================================
-
-#### Travel
+#### Details
 
 <br>
 <br>
@@ -140,17 +140,9 @@ Registry
 <br>
 <br>
 
-```{r Registry, eval = T}
-htmltools::tags$iframe(
-    src="Registry.html",
-    width="200", 
-    height="100",
-    seamless="seamless", 
-    frameBorder="0"
-  )
-```
+We are registered at [Amazon.com](https://www.amazon.com/wedding/share/TheLuckettest) and [Crate & Barrel](https://www.crateandbarrel.com/gift-registry/crystal-nguyen-and-daniel-luckett/r6097152). 
 
-###### More information coming soon!
+As much as we love opening a beautifully wrapped gift, we ask that there are no boxed gifts at the wedding. It sure would be difficult to bring these gifts home with us to Boston! A box will be available for any cards and honeymoon fund donation gifts at the reception.
 
 
 RSVP

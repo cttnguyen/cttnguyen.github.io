@@ -14,9 +14,10 @@ output: html_document
 
 Northwest Houston Vietnamese Alliance Church
 
-5133 Addicks Satsuma Rd, Houston, TX 77084
+5133 Addicks Satsuma Rd, Cypress, TX 77084
 
-Ceremony 5:00 pm
+Ceremony (Time TBA) 
+<!-- 5:00 pm -->
 
 Dinner to Follow
  
@@ -29,9 +30,10 @@ Dinner to Follow
 
 The SPRINGS in Cypress
 
-12612 Malcomson Rd, Houston, TX 77070
+12612 Malcomson Rd, Cypress, TX 77070
 
-Ceremony 4:00 pm
+Ceremony (Time TBA)
+<!-- 4:00 pm -->
 
 Dinner and Drinks to Follow
 
