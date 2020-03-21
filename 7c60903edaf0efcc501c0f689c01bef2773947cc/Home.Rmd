@@ -52,6 +52,7 @@ htmltools::tags$iframe(
 </div>
 <div class = "col-md-3">
 **Michael**
+![](I Do Crew/michael4.jpg){width=100%}
 </div>
 <div class = "col-md-3">
 **Anna**
@@ -59,7 +60,7 @@ htmltools::tags$iframe(
 </div>
 <div class = "col-md-3">
 **Nuvan**
-![](I Do Crew/nuvan2.jpg){width=100%}
+![](I Do Crew/nuvan4.jpg){width=100%}
 </div>
 </div>
 
@@ -80,6 +81,7 @@ htmltools::tags$iframe(
 </div>
 <div class = "col-md-3">
 **Barbara**
+
 </div>
 </div>
 
