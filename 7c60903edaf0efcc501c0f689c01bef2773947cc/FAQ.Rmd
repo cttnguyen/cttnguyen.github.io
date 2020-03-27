@@ -1,0 +1,97 @@
+---
+title: "FAQ"
+author: "Crystal Nguyen"
+date: "November 2, 2019"
+output: html_document
+---
+
+<div align="left">
+**1. What is a Vietnamese tea ceremony?**
+
+<div class="nobullet">
+* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
+incense in honor of deceased relatives of the bride and groom. 
+</div>  
+  
+**2. What should we do when we arrive at the tea ceremony?**
+
+<div class="nobullet">
+* The family of the bride may arrive as early as 4:30 PM and gather inside the sanctuary. Family of the groom and any friends are asked to arrive by 5:00 PM and gather outside to follow the procession inside.
+</div>
+
+<!-- **3. Where do we sit for the tea ceremony?** -->
+<!-- <div class="nobullet"> -->
+<!-- * The front row is reserved for immediate family members taking part in the ceremony. Otherwise, guests may take their seats wherever they like. -->
+<!-- </div> -->
+
+**3. What is the recommended attire?**
+
+<div class="nobullet">
+* For the wedding on Saturday, we recommend semi-formal: suits but not 
+tuxes, and dresses that need not be floor length. 
+
+* For the tea ceremony on Friday, we recommend "dressy casual" ([see here](https://www.lifesavvy.com/2435/dress-code-guide-what-does-dressy-casual-mean/)). We also welcome ao dai, a traditional Vietnamese style of clothing, or any of your own culturally traditional attire.
+
+* However, we hope that you will feel free to come as you are, whether that's jeans or your prom dress!
+</div>
+
+**4. Is any part of the celebration outdoors?**
+<div class="nobullet">
+* Yes, the wedding ceremony and cocktail hour will be held outdoors. This is subject to change in the case of inclement weather.
+</div>
+
+**5. Who is Bishop?**
+
+<div class="nobullet">
+* Since you've made it this far, you must know the password to this site, and you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on his cat bed, also known as "Crystal's sweaters."
+</div>
+
+<center>
+```{r bishop_photo, out.height="350px", out.width="525px", fig.alilgn="center"}
+knitr::include_graphics("../bishop_on_sweaters.jpg")
+```
+
+</div>
+
+<div align="left">
+
+**6. Will Bishop be at the wedding?**
+<div class="nobullet">
+* Unfortunately not. Bishop is a loving indoor cat that would not last more than five seconds outdoors.
+</div>
+
+**7. Where can I find parking?**
+<div class="nobullet">
+* The hotel and both venues all have ample parking available for free.
+</div>
+
+**8. Will transportation be provided?**
+<div class="nobullet">
+* This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings for wedding guests!
+</div>
+
+**9. Can I bring a guest or my kids?**
+<div class="nobullet">
+* If their name is on the inner envelope of the invitation, they are most certainly welcome!
+</div>
+
+**10. How should I submit my RSVP?**
+<div class="nobullet">
+* You may RSVP online or by mailing back the RSVP card found in your invitation.
+</div>
+
+**11. Why is your website a little clunky?**
+<div class="nobullet">
+* We made it ourselves! We are by no means web developers, but we are proud to have used our statistical programming skills in an out of the box way to bring to you our very own, completely customized website. Details on how we did so are available in Crystal's blog, along with a variety of other DIY projects like making the wedding invitations. 
+</div>
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>

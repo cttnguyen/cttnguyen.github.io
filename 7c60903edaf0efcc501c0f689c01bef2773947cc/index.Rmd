@@ -1,62 +1,205 @@
 ---
-title: "Crystal and Daniel's Wedding"
+title: ""
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
+    vertical_layout: scroll
 ---
+<style>
+/* define new fonts */
+@font-face {
+font-family: 'Neris Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Neris Thin'), url('Neris-Thin.woff') format('woff');
+}
+@font-face{
+    font-family: 'TheArtist';
+    src: local('TheArtist'), url("TheArtist.woff") format("woff");
+}
+span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
+
+/* define colors for navigation bar */
+.navbar, [data-toggle=tab], .navbar-brand{ 
+  background-color:#003366!important; 
+  border-color:#003366; 
+  color:white!important;
+  font-size: 16pt;
+  display: inline-block;
+  font-family: Neris Thin;
+}
+
+/* define colors for current tab */
+.navbar-nav > .active > a {
+  background-color:#003366!important;
+  border-color:#003366;
+  color:#b76e79!important;
+  font-size: 16pt;
+  display: inline-block;
+  font-family: Neris Thin;
+  font-weight: bold;
+}
+/* define colors for hovering */
+.navbar-nav li a:hover {
+  background-color:#003366!important;
+  border-color:#003366;
+  color:#b76e79!important;
+  font-size: 16pt;
+  display: inline-block;
+  font-family: Neris Thin;
+}
+/* define colors for something */
+.bgred {
+  background-color:white !important;
+  color:white !important;
+}
+body{
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  font-size: 14pt;
+  font-family: Neris Thin;
+}
+
+h3{
+  color: #003366;
+  font-size: 24pt;
+}
+h4{
+  font-style: normal;
+  font-size: 24pt;
+  color: #003366;
+  font-family: Neris Thin;
+}
+h5{
+  font-size: 96pt;
+  color: #b76e79;
+  font-family: TheArtist;
+}
+h6{
+  font-style: normal;
+  font-size: 18pt;
+  color: #003366;
+  font-family: Neris Thin;
+}
+.nobullet li {
+  list-style-type: none;
+  font-size: 14pt;
+  color: gray;
+  font-family: Neris Thin;  
+}
+
+</style>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(htmltools)
+library(gallerier)
 ```
 
 Home
-=======================================================================
+================================================
 
-Row {data-height=100}
------------------------------------------------------------------------
+<br>
 
-#### Crystal and Daniel are Getting Married!
-
-##### More information coming soon!
-
-Row
------------------------------------------------------------------------
-
-```{r engagement_photo, out.height="45%", out.width="45%"}
-knitr::include_graphics("C:/Users/lucke/repos/cttnguyen.github.io/engagement.JPG")
+```{r Home, child = 'Home.Rmd', eval = TRUE}
 ```
 
-Events
+
+<!-- Events {data-orientation=columns} -->
+<!-- ======================================================================= -->
+
+<!-- #### Events -->
+
+<!-- <br> -->
+<!-- <br> -->
+
+<!-- ```{r Events, child = 'Events.Rmd', eval = TRUE} -->
+
+<!-- ``` -->
+
+Details
 =======================================================================
 
-#### More information coming soon!
+#### Details
 
-Travel
-=======================================================================
+<br>
+<br>
 
-#### More information coming soon!
+```{r Travel, child = 'Travel.Rmd', eval = TRUE}
+
+
+```
+
 
 Registry
 =======================================================================
 
-#### More information coming soon!
+#### Wedding Registry
+
+<br>
+<br>
+
+We are registered at [Amazon.com](https://www.amazon.com/wedding/share/TheLuckettest) and [Crate & Barrel](https://www.crateandbarrel.com/gift-registry/crystal-nguyen-and-daniel-luckett/r6097152). 
+
+As much as we love opening a beautifully wrapped gift, we ask that there are no boxed gifts at the wedding. It sure would be difficult to bring these gifts home with us to Boston! A box will be available for any cards and honeymoon fund donation gifts at the reception.
+
 
 RSVP
 =======================================================================
 
-#### More information coming soon!
+#### Répondez S'il Vous Plaît
+```{r, echo=FALSE, message=FALSE}
+library(plotly)
+p <- readRDS('rsvp.rds') %>% 
+  layout(height = 250)
+p
+htmltools::tags$iframe(
+    src="RSVP.html",
+    width="750", 
+    height="1600",
+    seamless="seamless", 
+    frameBorder="0"
+  )
+```
 
 Gallery
 =======================================================================
 
-#### More information coming soon!
+#### Gallery
+
+<br>
+<br>
+
+```{r Gallery, child = 'Gallery.Rmd', eval = TRUE}
+
+```
 
 FAQs
 =======================================================================
 
-#### More information coming soon!
+#### Frequently Asked Questions
+
+<br>
+<br>
+
+```{r FAQ, child = 'FAQ.Rmd', eval = TRUE}
+```
 
 DIY Wedding Blog
 =======================================================================
 
-#### More information coming soon!
+#### A Do It Yourself Wedding Blog
+
+<br>
+<br>
+
+```{r Blog, child = 'Blog.Rmd', eval = TRUE}
+```
+
+<br>
+<br>
+<br>
+<br>
+
+
