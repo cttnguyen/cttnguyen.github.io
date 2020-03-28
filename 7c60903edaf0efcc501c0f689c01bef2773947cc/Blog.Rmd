@@ -4,6 +4,25 @@ author: "Crystal Nguyen"
 date: "November 2, 2019"
 output: html_document
 ---
+###### I Do Crew "Proposal" Cards
+
+11/23/2019
+
+You may have noticed we don't have an equal number of groomsmen and bridesmaids on our main page of this website. We've opted to just call our wedding party an "I Do Crew." This decision was made for a few different reasons, but, primarily, we didn't want to have to fight over who got to stand on whose side just because of gender. Each member of this incredible crew is friend or (future) family to us both. At the end of the day, we know they are not rooting for just one of us, but for the both of us in our marriage. 
+
+Okay, I'm done being sappy - onto the crafts. I took this project on to (1) be cutesy and (2) to test a couple of crafting techniques that I was hoping to use on later paper crafts for our wedding. 
+
+What the heck is a proposal card? Just a little greeting card, sent in the mail or in person, to "propose" that a person be in your wedding party. Basically, one of those Hallmark industry made up things, but it's pretty hard for me to turn down a DIY opportunity.We went through a few drafts to get the process down as well as the aesthetic/vibe we were going for. For example, we had a standard card designed for our entire crew. We ultimately decided against it so we would have space to write in personal notes.
+
+A final note before getting started: just make your own envelopes next time. I hear a lot of brides have a small, final straw in the stress of wedding planning: envelopes was mine. After making these cards at the industry standard size, I realized I could not find envelopes at the appropriate size in a small amount. Envelopes. Plain. Not in a envelope+card pack. I had to buy 100 or spend $15 on a handful. I had a meltdown - not my finest moment. BUT then I discovered I could make my own envelopes. If you've got a Cricut (or scissors and a lot of time?) this is so worth it for custom envelopes (think of all the cardstock options). 
+
+Supplies:
+
+* Cardstock, medium to heavy weight will "feel" better
+* Adhesive Foil
+
+
+
 ###### Welcome & How to Host a Website Using flexdashboard and GitHub Pages 
 
 10/15/2019
