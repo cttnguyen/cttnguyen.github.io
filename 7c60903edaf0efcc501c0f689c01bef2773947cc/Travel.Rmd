@@ -46,7 +46,9 @@ Dinner and Drinks to Follow
 
 ###### Lodging
 
-**Element Houston Vintage Park** ([Book Now](https://www.marriott.com/event-reservations/reservation-link.mi?id=1583424691554&key=GRP&app=resvlink))
+**Element Houston Vintage Park** 
+
+([Book Now](https://www.marriott.com/event-reservations/reservation-link.mi?id=1583424691554&key=GRP&app=resvlink){target="_blank"})
 
 A block of rooms has been reserved for $96/night. All rooms include a kitchennette, and all reservations include free WiFi, parking, and breakfast. Please use the link above or mention "Nguyen-Luckett Wedding" on the phone to reserve your stay at group rates!
 
@@ -100,21 +102,21 @@ More information coming soon!
 <div class="nobullet">
 * 110 Vintage Park Blvd., Houston TX, 77070
 * Across the street from Element Houston Vintage Park Hotel
-* Features shops, spas, dining, and bars ([Visit](http://www.vintageparkhouston.com/))
+* Features shops, spas, dining, and bars ([Visit](http://www.vintageparkhouston.com/){target="_blank"})
 </div>
 **The Houston Zoo**
 <div class="nobullet">
 * 6200 Hermann Park Dr., Houston, TX 77030
-* The 2nd most visited zoo in the US and home to over 6,000 animals ([Visit](https://www.houstonzoo.org))
+* The 2nd most visited zoo in the US and home to over 6,000 animals ([Visit](https://www.houstonzoo.org){target="_blank"})
 </div>
 **Space Center Houston**
 <div class="nobullet">
 * 1601 NASA Pkwy., Houston, TX 77058
-* Two words: outer space ([Visit](https://spacecenter.org/))
+* Two words: outer space ([Visit](https://spacecenter.org/){target="_blank"})
 </div>
 **Houston Museum District**
 <div class="nobullet">
-* Includes 19 museums in 4 zones ([Visit](https://houmuse.org/))
+* Includes 19 museums in 4 zones ([Visit](https://houmuse.org/){target="_blank"})
 * Crystal's favorite: The museum of natural science
 </div>
 </div>
