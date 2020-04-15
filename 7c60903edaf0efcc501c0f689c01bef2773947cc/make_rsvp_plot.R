@@ -3,6 +3,7 @@ library(tidyverse)
 library(googlesheets4)
 library(openintro)
 
+sheets_auth(email = "crystalmarriesdaniel@gmail.com")
 invitations = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0B-CNApGICnRlaSuTCFX8s9OgSAQ/edit#gid=409297580", 
                          sheet = 'Invitations', skip = 3) %>% 
   filter(!is.na(`Short Name`)) %>% 
