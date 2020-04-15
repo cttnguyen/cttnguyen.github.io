@@ -1,5 +1,5 @@
 ---
-title: ""
+title: '#TheLuckettest'
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -140,25 +140,25 @@ Registry
 <br>
 <br>
 
-We are registered at [Amazon.com](https://www.amazon.com/wedding/share/TheLuckettest) and [Crate & Barrel](https://www.crateandbarrel.com/gift-registry/crystal-nguyen-and-daniel-luckett/r6097152). 
+We are registered at [Amazon.com](https://www.amazon.com/wedding/share/TheLuckettest){target="_blank"} and [Crate & Barrel](https://www.crateandbarrel.com/gift-registry/crystal-nguyen-and-daniel-luckett/r6097152){target="_blank"}. 
 
-As much as we love opening a beautifully wrapped gift, we ask that there are no boxed gifts at the wedding. It sure would be difficult to bring these gifts home with us to Boston! A box will be available for any cards and honeymoon fund donation gifts at the reception.
+As much as we love opening a beautifully wrapped gift, we ask that there be no boxed gifts at the wedding. It sure would be difficult to bring gifts home with us to Boston! Both registries will allow you to ship directly to us. A box will be available at the reception for any cards.
 
 
 RSVP
 =======================================================================
 
-#### Répondez S'il Vous Plaît
+#### Repondez S'il Vous Plait
 ```{r, echo=FALSE, message=FALSE}
 library(plotly)
-p <- readRDS('rsvp.rds') %>% 
-  layout(height = 250)
+p <- readRDS('rsvp.rds') %>%
+layout(height = 250)
 p
 htmltools::tags$iframe(
     src="RSVP.html",
-    width="750", 
-    height="2000",
-    seamless="seamless", 
+    width="750",
+    height="1600",
+    seamless="seamless",
     frameBorder="0"
   )
 ```
