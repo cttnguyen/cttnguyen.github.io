@@ -151,6 +151,7 @@ RSVP
 #### Repondez S'il Vous Plait
 ```{r, echo=FALSE, message=FALSE}
 library(plotly)
+# source('make_rsvp_plot.R')
 p <- readRDS('rsvp.rds') %>%
 layout(height = 250)
 p
