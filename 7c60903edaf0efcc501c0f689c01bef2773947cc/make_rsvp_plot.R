@@ -26,6 +26,7 @@ df <- rsvp_df %>%
                               `Number Attending the Saturday Wedding & Reception`),
                             na.rm = T)) %>%
   left_join(crosswalk, by = c("First Name", "Last Name")) %>% 
+  filter(!is.na(`Inv #`)) %>% 
   left_join(invitations, by = "Inv #") %>% 
   select(Attending, State, Category, `Inv #`) %>% 
   add_row(State = 'MA', Category = 'Bride & Groom', Attending = 2, `Inv #` = 2) %>% 
