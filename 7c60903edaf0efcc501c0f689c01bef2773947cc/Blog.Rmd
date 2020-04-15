@@ -36,13 +36,13 @@ Cricut supplies:
 </div>
 </div>
 
-We chose to use some free fonts we found on [dafont.com](https://www.dafont.com/): Made The Artist Script and Neris Thin. These fonts are used throughout our website and will be used on forthcoming wedding stationary. Once downloaded and installed, these fonts are available in the Cricut Design Space software that is associated with Cricut machines. 
+We chose to use some free fonts we found on [dafont.com](https://www.dafont.com/){target="_blank"}: Made The Artist Script and Neris Thin. These fonts are used throughout our website and will be used on forthcoming wedding stationary. Once downloaded and installed, these fonts are available in the Cricut Design Space software that is associated with Cricut machines, as well as all your other text editor software. 
 
-Designing the card itself is fairly simple. A rectangular shape creates the cut outline, the line across the middle is set to "score," and the text, "Will you be in our" is set to draw. I typically find that the custom material setting on the Cricut works better than any of the presets. In the software I then select the appropriate material (medium cardstock here), and the software then guides you through which tool is needed when (fine point pen, scoring stylus, or fine point blade) for you to switch out and continue. I found the light grip mat to work better than a standard grip; the standard was too sticky and would leave most of my cardstock still stuck to the mat after trying to remove it.
+Designing the card itself is fairly simple. A rectangular shape creates the cut outline, the line across the middle is set to "score," and the text, "Will you be in our" is set to draw. I typically find that the custom material setting on the Cricut works better than any of the presets. In the software, I then select the appropriate material (medium cardstock here), and the software then guides you through which tool is needed when (fine point pen, scoring stylus, or fine point blade) for you to switch out and continue. I found the light grip mat to work better than a standard grip; the standard was too sticky and would leave most of my cardstock still stuck to the mat after trying to remove it.
 
 ![](Blog Photos/IDC Cricut.jpg){width=50%}
 
-Working with the adhesive foil was only about 50 times harder. First off, when cutting a material into cursive text, you must manually place the letters to get the letters to connect as though written with a single pen stroke. The "weld" option in Cricut Design then tells the machine to treat all the words as a single object rather than independent letters (so you get "hello world" as opposed to "h e l l o w o r l d"). 
+Working with the adhesive foil was only about 50 times harder. First off, when cutting a material into cursive text, you must manually place the letters to get the letters to connect as though written with a single pen stroke. The "weld" option in Cricut Design then tells the machine to treat all the words as a single object rather than independent letters (so you get "hello world" as opposed to "h e l l o  w o r l d"). 
 
 ![](Blog Photos/IDC Foil.png){width=50%}
 
@@ -54,7 +54,7 @@ BUT it was definitely worth it. Finally, you have to carefully use transfer tape
 
 ![](Blog Photos/IDC Cards.jpg){width=50%}
 
-I'm pretty happy with how they came out, even if they're not all that uniform. Things I learned for when we do a similar process for the invitations: slow and steady keeps all your foile letters intact, print out excess periods for when you lose the dots for the letter "i," and always always do test cases for new crafts!
+I'm pretty happy with how they came out, even if they're not all that uniform. Things I learned for when we do a similar process for the invitations: slow and steady keeps all your foil letters intact, print out excess periods for when you lose the dots for the letter "i," and always always make extras!
 
 
 <br>
