@@ -60,5 +60,8 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
   layout(geo = g) %>% 
+  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.2, 
+                  text = paste("*Last updated", Sys.Date()),
+                  showarrow = F, font = list(size = 10)) %>% 
   plotly_build()
 saveRDS(p, 'rsvp.rds')
