@@ -29,9 +29,6 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
   font-family: Neris Thin;
 }
 
-.nav-tabs-custom > .nav-tabs > li.active {border-top-color: #b76e79}
-}
-
 /* define colors for current tab */
 .navbar-nav > .active > a {
   background-color:#003366!important;
@@ -42,6 +39,10 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
   font-family: Neris Thin;
   font-weight: bold;
 }
+
+.nav-tabs-custom > .nav-tabs > li.active {border-top-color: #b76e79}
+
+
 /* define colors for hovering */
 .navbar-nav li a:hover {
   background-color:#003366!important;
