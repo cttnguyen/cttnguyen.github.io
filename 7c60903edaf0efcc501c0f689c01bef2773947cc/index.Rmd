@@ -40,7 +40,10 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
   font-weight: bold;
 }
 
-.nav-tabs-custom > .nav-tabs > li.active {border-top-color: #b76e79}
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #b76e79;
+  color: #b76e79;
+}
 
 
 /* define colors for hovering */
@@ -128,7 +131,6 @@ Details
 #### Details
 
 <br>
-<br>
 
 ```{r Travel, child = 'Travel.Rmd', eval = TRUE}
 
@@ -142,12 +144,12 @@ Registry
 #### Wedding Registry
 
 <br>
-<br>
 
 We are registered at [Amazon.com](https://www.amazon.com/wedding/share/TheLuckettest){target="_blank"} and [Crate & Barrel](https://www.crateandbarrel.com/gift-registry/crystal-nguyen-and-daniel-luckett/r6097152){target="_blank"}. 
 
 We ask that there be no boxed gifts brought to the wedding. It sure would be difficult to bring gifts home with us to Boston! Both registries will allow you to ship directly to us. A box will be available at the reception for any cards.
 
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 RSVP
 =======================================================================
@@ -173,7 +175,7 @@ Gallery
 
 #### Gallery
 
-<br>
+
 <br>
 
 ```{r Gallery, child = 'Gallery.Rmd', eval = TRUE}
@@ -186,7 +188,6 @@ FAQs
 #### Frequently Asked Questions
 
 <br>
-<br>
 
 ```{r FAQ, child = 'FAQ.Rmd', eval = TRUE}
 ```
@@ -197,7 +198,6 @@ DIY Wedding Blog
 #### A Do It Yourself Wedding Blog
 
 <br>
-<br>
 
 <!-- ```{r Blog, child = 'Blog.Rmd', eval = TRUE} -->
 <!-- ``` -->
@@ -206,11 +206,11 @@ DIY Wedding Blog
 <!-- ------------------------------------- -->
 <!-- hello world -->
 
-Column {.tabset data-height=5000}
+Column {.tabset data-height=3000}
 -------------------------------------
 
 ### 11/23/2019
-###### I Do Crew Proposal Cards
+###### I Do Crew Proposal Cards 
 
 11/23/2019
 
@@ -284,7 +284,7 @@ I am dedicating this blog to all things DIY that Daniel and I work on throughout
 If you didn't already know, I really love crafting. The process of taking raw materials and creating something appreciable brings me great joy whether it's baking, wood crafting, or scrapbooking. Until recently, I have always been a busy student without a lot of time available for crafting. However, I now work that wonderful 9-5 and, better yet, have an occassion to take on some really great crafting projects: our engagement! 
 
 <center>
-```{r engagement_photo_filtered, out.height="350px", out.width="350px",  fig.alilgn="center"}
+```{r engagement_photo_filtered, out.height="350px", out.width="350px",  fig.align="center"}
 knitr::include_graphics("../engagement_filtered.JPG")
 ```
 
