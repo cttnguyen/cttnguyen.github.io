@@ -2,9 +2,19 @@
 title: "Blog"
 author: "Crystal Nguyen"
 date: "November 2, 2019"
-output: html_document
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 10
 ---
-###### I Do Crew "Proposal" Cards
+
+[10/15/2019](#welcome-how-to-host-a-website-using-flexdashboard-and-github-pages)
+
+[11/23/2019](#i-do-crew-proposal-cards)
+
+
+
+###### I Do Crew Proposal Cards
 
 11/23/2019
 
@@ -62,7 +72,7 @@ I'm pretty happy with how they came out, even if they're not all that uniform. T
 <br>
 <br>
 
-###### Welcome & How to Host a Website Using flexdashboard and GitHub Pages 
+###### Welcome & How to Host a Website Using flexdashboard and GitHub Pages
 
 10/15/2019
 
@@ -97,3 +107,5 @@ We still have a ways to go. Not all of our tabs are set up. We'll need to link o
 Again, this was definitely not the most convenient way to create and host a wedding website, but this was absolutely the only way for Daniel and I to go about creating and hosting ours. Not only did it allow for complete customization of the end product, but building our website from the ground up in our preferred programming language has already been the ultimate kick off to our engagement. We both love data and programming in R; why not incorporate that into our wedding? My favorite part of building our website this way is that it is just totally novel. Flexdashboards are typically purposed for displaying visuals for data, not as a media for wedding information, but this challenge was merely an exciting puzzle for two nerds to solve. 
 
 That's all for now. Stay tuned for how-tos, details, tips, and inspiration for DIY wedding projects.
+
+
