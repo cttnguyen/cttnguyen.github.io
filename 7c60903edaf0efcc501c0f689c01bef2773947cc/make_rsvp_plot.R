@@ -3,6 +3,7 @@ library(tidyverse)
 library(googlesheets4)
 library(openintro)
 
+sheets_auth(email = "crystalmarriesdaniel@gmail.com")
 invitations = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0B-CNApGICnRlaSuTCFX8s9OgSAQ/edit#gid=409297580", 
                          sheet = 'Invitations', skip = 3) %>% 
   filter(!is.na(`Short Name`)) %>% 
@@ -26,6 +27,7 @@ df <- rsvp_df %>%
                               `Number Attending the Saturday Wedding & Reception`),
                             na.rm = T)) %>%
   left_join(crosswalk, by = c("First Name", "Last Name")) %>% 
+  filter(!is.na(`Inv #`)) %>% 
   left_join(invitations, by = "Inv #") %>% 
   select(Attending, State, Category, `Inv #`) %>% 
   add_row(State = 'MA', Category = 'Bride & Groom', Attending = 2, `Inv #` = 2) %>% 
@@ -58,5 +60,8 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
   layout(geo = g) %>% 
+  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.2, 
+                  text = paste("*Last updated", Sys.Date()),
+                  showarrow = F, font = list(size = 10)) %>% 
   plotly_build()
 saveRDS(p, 'rsvp.rds')

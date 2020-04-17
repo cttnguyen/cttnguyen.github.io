@@ -6,41 +6,75 @@ output: html_document
 ---
 
 <div align="left">
-**1. What is a Vietnamese tea ceremony?**
+**1. Can you tell me more about the Vietnamese tea ceremony?**
 
 <div class="nobullet">
-* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents. The ceremony concludes by pouring tea and burning 
-incense in honor of deceased relatives of the bride and groom. 
+* The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Please note that it may be difficult to hear some of the more intimate parts of the ceremony which are performed without a microphone.
+
+* The main difference for guests is the procession. The family of the bride gathers inside the sanctuary upon arrival. Barring any inclement weather, family of the groom and any friends are asked to assemble outside and follow the procession inside when the ceremony begins. 
+
+* We know that attending a Friday event may be difficult for many, but we hope you'll join us if you are able to make it!
 </div>  
-  
-**2. What should we do when we arrive at the tea ceremony?**
 
-<div class="nobullet">
-* The family of the bride may arrive up to half an hour before the ceremony and gather inside the sanctuary. Family of the groom and any friends are asked to arrive by the start of the ceremony and gather outside to follow the procession inside.
-</div>
+<!-- **1. What is a Vietnamese tea ceremony?** -->
+
+<!-- <div class="nobullet"> -->
+<!-- * The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Note that portions of the ceremony are meant to be quite intimate, and guests are usually unable to hear parts of what is spoken by the parents and grandparents.  -->
+<!-- </div>   -->
+
+<!-- **2. What should we do when we arrive at the tea ceremony?** -->
+
+<!-- <div class="nobullet"> -->
+<!-- * The family of the bride may gather inside the sanctuary upon arrival. Barring any inclement weather, family of the groom and any friends are asked to assemble outside and follow the procession inside when the ceremony begins. -->
+<!-- </div> -->
 
 <!-- **3. Where do we sit for the tea ceremony?** -->
 <!-- <div class="nobullet"> -->
 <!-- * The front row is reserved for immediate family members taking part in the ceremony. Otherwise, guests may take their seats wherever they like. -->
 <!-- </div> -->
 
-**3. What is the recommended attire?**
+**2. What is the recommended attire?**
 
 <div class="nobullet">
-* For the wedding on Saturday, we recommend semi-formal: suits but not 
-tuxes, and dresses that need not be floor length. 
+* For the wedding on Saturday, we recommend semi-formal: your favorite suit, dress, or pantsuit.
 
 * For the tea ceremony on Friday, we recommend "dressy casual" ([see here](https://www.lifesavvy.com/2435/dress-code-guide-what-does-dressy-casual-mean/){target="_blank"}). We also welcome ao dai, a traditional Vietnamese style of clothing, or any  traditional attire from your culture.
 
-* However, we hope that you will feel free to come as you are, whether that's jeans or your prom dress!
+* However, we hope that you will feel free to come as you are, whether that's in a t-shirt and jeans or your prom dress!
 </div>
 
-**4. Is any part of the celebration outdoors?**
+**3. Is any part of the celebration outdoors?**
+
 <div class="nobullet">
 * Yes, the wedding ceremony and cocktail hour will be held outdoors. This is subject to change in the case of inclement weather.
 </div>
 
-**5. Who is Bishop?**
+**4. Where can I find parking?**
+
+<div class="nobullet">
+* The hotel and both venues all have ample parking available for free.
+</div>
+
+**5. Will transportation be provided?**
+
+<div class="nobullet">
+* This is still TBA, but we are hoping to find transportation to and from the hotel on both evenings!
+</div>
+
+
+<!-- We are doing our best to accommodate as many +1s as we can, but please forgive us if we just don't have the space! Keep a look out for your forthcoming invitation to see if "and guest" is listed on the envelope. -->
+<!-- **9. Can I bring a guest or my kids?** -->
+<!-- <div class="nobullet"> -->
+<!-- * If their name is on the inner envelope of the invitation, they are most certainly welcome! -->
+<!-- </div> -->
+
+**6. How should I submit my RSVP?**
+
+<div class="nobullet">
+* You can RSVP online or by mailing back the RSVP card found in your invitation.
+</div>
+
+**7. Who is Bishop?**
 
 <div class="nobullet">
 * Since you've made it this far, you must know the password to this site, and you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on his cat bed, also known as "Crystal's sweaters."
@@ -55,34 +89,16 @@ knitr::include_graphics("../bishop_on_sweaters.jpg")
 
 <div align="left">
 
-**6. Will Bishop be at the wedding?**
+**8. Will Bishop be at the wedding?**
+
 <div class="nobullet">
 * Unfortunately not. Bishop is a loving indoor cat that would not last more than five seconds outdoors.
 </div>
 
-**7. Where can I find parking?**
-<div class="nobullet">
-* The hotel and both venues all have ample parking available for free.
-</div>
+**9. Why is your website a little clunky?**
 
-**8. Will transportation be provided?**
 <div class="nobullet">
-* This is still TBD, but we are hoping to find transportation to and from the hotel on both evenings!
-</div>
-
-**9. Can I bring a guest or my kids?**
-<div class="nobullet">
-* If their name is on the inner envelope of the invitation, they are most certainly welcome!
-</div>
-
-**10. How should I submit my RSVP?**
-<div class="nobullet">
-* You can RSVP online or by mailing back the RSVP card found in your invitation.
-</div>
-
-**11. Why is your website a little clunky?**
-<div class="nobullet">
-* We made it ourselves! We are by no means web developers, but we are proud to have used our programming skills in an outside-the-box way to bring to you our very own, completely customized website. Details on how we did so are available in Crystal's blog, along with a variety of other DIY projects like making the wedding invitations. 
+* We made it ourselves! We are by no means web developers, but we are proud to have used our programming skills in an outside-the-box way to bring to you our very own, completely customized website. Details on how we did so are available in Crystal's blog, along with a variety of other DIY projects. 
 </div>
 </div>
 
