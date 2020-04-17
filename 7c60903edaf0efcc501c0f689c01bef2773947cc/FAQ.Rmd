@@ -6,6 +6,15 @@ output: html_document
 ---
 
 <div align="left">
+   
+**Coronavirus Alert:**
+
+<div class="nobullet">
+* As of `r Sys.Date()`, we intend to hold our wedding as planned, but we will continue to monitor the situation and update this website if anything changes.
+</div>
+
+<br>
+
 **1. Can you tell me more about the Vietnamese tea ceremony?**
 
 <div class="nobullet">
