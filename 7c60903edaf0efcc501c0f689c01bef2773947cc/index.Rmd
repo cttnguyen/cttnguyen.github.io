@@ -161,6 +161,11 @@ library(plotly)
 p <- readRDS('rsvp.rds') %>%
 layout(height = 250)
 p
+```
+
+To RSVP, please fill out the form below and select "Submit." If your plans change for any reason, feel free to contact us or resubmit the form below. 
+
+```{r, echo=FALSE, message=FALSE}
 htmltools::tags$iframe(
     src="RSVP.html",
     width="750",
