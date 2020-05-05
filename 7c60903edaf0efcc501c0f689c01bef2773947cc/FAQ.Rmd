@@ -10,7 +10,7 @@ output: html_document
 **Coronavirus Alert:**
 
 <div class="nobullet">
-* As of `r Sys.Date()`, we intend to hold our wedding as planned, but we will continue to monitor the situation and update this website if anything changes.
+* As of `r Sys.Date()`, we intend to hold our wedding as planned, but we will continue to monitor the situation and update this website if anything changes. If your plans change for any reason, please contact us or resubmit the RSVP form online to let us know.
 </div>
 
 <br>
