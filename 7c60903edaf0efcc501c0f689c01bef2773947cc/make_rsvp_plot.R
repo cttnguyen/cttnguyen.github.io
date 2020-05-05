@@ -21,6 +21,18 @@ crosswalk = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0
                        sheet = 'Invitations Crosswalk')
 rsvp_df <- read_sheet("https://docs.google.com/spreadsheets/d/1ZwOWDuDJZc7m_LoD3RqU4FnDdfDZyvVn9jHjTQxp8JY/edit#gid=999873728")
 
+# Extract name field
+rsvp_names = rsvp_df$`Please list the first and last names of those attending the Saturday wedding, separated by commas (for example, "John Smith, Jane Smith, Jenny Smith").`
+
+# Create variable for full name of first person on each RSVP
+rsvp_df$full_name = rsvp_names %>% 
+  strsplit(",") %>% 
+  sapply(function(x) return(x[1]))
+
+# Create variables for first and last name
+rsvp_df = rsvp_df %>% separate(full_name, into = c("First Name", 
+                                                   "Last Name"))
+
 df <- rsvp_df %>% 
   transmute(`First Name`, `Last Name`,
             Attending = max(c(`Number Attending the Friday Tea Ceremony`,
