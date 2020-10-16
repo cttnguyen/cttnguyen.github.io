@@ -155,6 +155,9 @@ RSVP
 =======================================================================
 
 #### Repondez S'il Vous Plait
+
+We have currently turned off our RSVP portal, as we are now postponing our wedding with a new date/location TBD. Please check back later. If you have already RSVP'd for our original date, you will be able to re-fill the RSVP again later or we will follow up with you to double check.
+<!--
 ```{r, echo=FALSE, message=FALSE}
 library(plotly)
 # source('make_rsvp_plot.R')
@@ -174,7 +177,7 @@ htmltools::tags$iframe(
     frameBorder="0"
   )
 ```
-
+-->
 Gallery
 =======================================================================
 

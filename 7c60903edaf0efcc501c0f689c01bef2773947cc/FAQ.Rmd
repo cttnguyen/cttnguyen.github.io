@@ -7,12 +7,47 @@ output: html_document
 
 <div align="left">
    
-**Coronavirus Alert:**
+**Postponement Alert:**
 
 <div class="nobullet">
-* As of `r Sys.Date()`, we intend to hold our wedding as planned, but we will continue to monitor the situation and update this website if anything changes. If your plans change for any reason, please contact us or resubmit the RSVP form online to let us know.
+* As of 10/6/2020, we have made the unfortunate and difficult decision to postpone our wedding. With no vaccine available, cases on the rise again, and flu season here, we cannot see a feasible way to keep ourselves, our loved ones (that's you!), and our vendors safe. Moving forward with our original date would have required a lot of cross-state travel, as Crystal's parents are the only two people out of all the immediate family and bridal party who are local to Cypress, TX! 
+
+* We promise we are working as quickly as we can to book a new date at a new venue and get change-the-dates out to everyone. All we can say for now is that we are looking for a Saturday in February of 2022, and we are hoping to find a venue large enough so that we will not have to retract any invitations. Below are answers to some common follow up questions to our postponement.
+
+* We apologize for any inconvenience this postponement may bring you. No one is more sorry than we are that we won't get to host our wedding on our originally intended date! That said, between this postponement and all the social distancing, we are all the more excited to celebrate with you when the time comes.
+
 </div>
 
+<br>
+
+**i. What's so special about February? **
+
+<div class="nobullet">
+* Nothing, really. Some of our contracts allow us to postpone up to a year without loss of deposit or rescheduling fees. Pushing the wedding as far as we can gives the US maximal time to get rid of COVID19 and minimizes our financial losses from postponing. February is also commonly an "off-season" month for Texas, which makes it ideal for off-season discounts. Lastly, February avoids the nasty Texas summer weather, is the dryest month of the year for Houston, and is not quite as cold as January or December.
+</div>
+
+
+**ii. Why a new venue? **
+<div class="nobullet">
+* Our now-former-venue really nailed us in our contract. To roll payments over to a new date, we would've had to have given written notice of postponement by 06/27/2020. Our contract also forbids us from selling our date to a new couple to recoup losses. Lastly, we are not permitted to __donate our date to a charitable event__. We tried to negotiate with their corporate management to give us a break - even some small discount on a new date if we were to reschedule with them. They were not interested. For this reason, we see no reason to continue providing them with our business. There are many other beautiful venues in the area, and we could not see ourselves getting married at The SPRINGS in Cypress without looking back at the great losses incurred by their lack of compassion.
+</div>
+
+**iii. Oh no! Can't you sue them? **
+<div class="nobullet">
+* Nope! They wrote a pretty solid contract, and in October of 2019, there was no scenario Daniel and I could've imagined where we would not be getting married in Cypress, Texas on 02/27/2021. 
+
+* Our wedding planning tips? (1) Triple check your contracts; (2) __Negotiate__ your contract - you don't have to sign the first thing they send you; (3) Get wedding cancellation/postponement insurance, it's not even that expensive.
+</div>
+
+**iv. Are you guys still getting married on 02/27/2021 but just having the wedding later on? **
+<div class="nobullet">
+* We don't know yet. It's really difficult to imagine ourselves getting married without any of our loved ones, but shared benefits and a joint bank account are really appealing! Oh and being legally married. That's pretty cool too, I guess.
+</div>
+
+**v. Will you take COVID19 precautions at your wedding? **
+<div class="nobullet">
+* That depends! If we have, as a nation, achieved some reasonable level of herd immunity, then the precautions won't be necessary! However, if things have improved but are still not back to "normal" quite yet, then we will take every necessary precaution that is appropriate to the state of the pandemic at that time. That could include, but is not limited to, hand sanitizing stations throughout the venue, socially distanced chair clusters at the ceremony, socially distanced tables at the reception by household, an outdoor reception, a plated dinner, mask requirements, or temperature check requirements upon arrival. 
+</div>
 <br>
 
 **1. Can you tell me more about the Vietnamese tea ceremony?**
