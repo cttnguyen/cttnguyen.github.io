@@ -34,10 +34,10 @@ rsvp_df = rsvp_df %>% separate(full_name, into = c("First Name",
                                                    "Last Name"))
 
 df <- rsvp_df %>% 
-  transmute(`First Name`, `Last Name`,
-            Attending = max(c(`Number Attending the Friday Tea Ceremony`,
-                              `Number Attending the Saturday Wedding & Reception`),
-                            na.rm = T)) %>%
+  transmute(`First Name`, 
+            `Last Name`,
+            Attending = pmax(`Number Attending the Friday Tea Ceremony`,
+                            `Number Attending the Saturday Wedding & Reception`)) %>%
   left_join(crosswalk, by = c("First Name", "Last Name")) %>% 
   filter(!is.na(`Inv #`)) %>% 
   left_join(invitations, by = "Inv #") %>% 
