@@ -1,0 +1,47 @@
+---
+title: "COVID_FAQ"
+author: "Crystal Nguyen"
+date: "11/2/2020"
+output: html_document
+---
+
+
+<br>
+
+**Postponement Updates**
+
+As of 10/6/2020, we have made the unfortunate and difficult decision to postpone our wedding. With no vaccine available, cases on the rise again, and flu season here, we cannot see a feasible way to keep ourselves, our loved ones (that's you!), and our vendors safe, especially with most of the guests and bridal party (including ourselves) traveling in from out of state .
+
+We apologize for any inconvenience this postponement may bring you. No one is more sorry than we are that we won't get to host our wedding on our originally intended date! That said, between this postponement and all the social distancing, we are all the more excited to celebrate with you when the time comes.
+
+As of 10/31/2020, we have been able to secure a new venue for 02/26/2022. We will update this website as soon as possible with the latest details as we work them out, so please stay tuned! Below are answers to some common questions about our postponement
+<br>
+
+<div align="left">
+**1. What's so special about February? **
+
+<div class="nobullet">
+* Nothing, really. Some of our contracts allow us to postpone up to a year without loss of deposit or rescheduling fees. Pushing the wedding as far as we can maximizes the time we have to get control of COVID19 and minimizes our financial losses from postponing. February is also commonly an "off-season" month for Texas, which makes it ideal for off-season discounts. Lastly, February avoids the nasty Texas summer weather, is the driest month of the year for Houston, and is not quite as cold as January or December.
+</div>
+
+
+**2. Are you guys still getting married on 02/27/2021 but just having the wedding the next year? **
+<div class="nobullet">
+* We don't know yet. It's really difficult to imagine ourselves getting married without any of our loved ones, but shared benefits and a joint bank account are really appealing! Oh and being legally married. That's pretty cool too, I guess.
+</div>
+
+**3. Will you take COVID19 precautions at your wedding? **
+<div class="nobullet">
+* That depends! If we have, as a nation, achieved some reasonable level of herd immunity, then the precautions won't be necessary! However, if things have significantly improved but are still not back to "normal" quite yet, then we will take every necessary precaution that is appropriate to the state of the pandemic at that time.
+</div>
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>

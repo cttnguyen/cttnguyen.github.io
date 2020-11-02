@@ -1,9 +1,12 @@
+## @knitr makeplot
+
 library(plotly)
 library(tidyverse)
 library(googlesheets4)
 library(openintro)
 
-sheets_auth(email = "crystalmarriesdaniel@gmail.com")
+#sheets_auth(email = "crystalmarriesdaniel@gmail.com")
+gs4_auth(email = "crystalmarriesdaniel@gmail.com")
 invitations = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0B-CNApGICnRlaSuTCFX8s9OgSAQ/edit#gid=409297580", 
                          sheet = 'Invitations', skip = 3) %>% 
   filter(!is.na(`Short Name`)) %>% 
@@ -54,6 +57,7 @@ df <- rsvp_df %>%
           Attending = 0,
           hover = "") %>% 
   mutate(hover = paste0(abbr2state(State), "<br>", hover))
+
 l <- list(color = toRGB("lightgray"), width = 2)
 # specify some map projection/options
 g <- list(
@@ -68,12 +72,14 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
         color = ~Attending, colors = 'Blues', 
         marker = list(line = l), hoverinfo = 'text',
         colorbar = list(title = "RSVPs", len = 1),
-        colorscale = list(c(0, "white"), list(1, "rgb(0,51,102)"))
+        colorscale = list(c(0, "white"), list(1, "rgb(0,51,102)")),
+        height = "100%", width = "100%"
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
   layout(geo = g) %>% 
   add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.2, 
                   text = paste("*Last updated", Sys.Date()),
-                  showarrow = F, font = list(size = 10)) %>% 
-  plotly_build()
-saveRDS(p, 'rsvp.rds')
+                  showarrow = F, font = list(size = 10)) #%>% 
+  #plotly_build()
+p
+#saveRDS(p, 'rsvp.rds')

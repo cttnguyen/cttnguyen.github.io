@@ -6,11 +6,11 @@ output: html_document
 ---
 
 ##### Crystal & Daniel
-#### Are Postponing Their Wedding!
+#### Have Postponed Their Wedding!
 
 Cypress, TX
 
-2.??.2022
+02.26.2022
 
 
 <!-- ![](./Engagements/391a4472-2.jpg){width=110%} -->
@@ -33,17 +33,16 @@ They headed out to the beach just before sunset with guitar in hand. After a few
 
 <br>
 
-<!--
 ```{r, echo=FALSE}
 htmltools::tags$iframe(
     src="timecounter.html",
-    width="200", 
-    height="100",
+    width="350", 
+    height="175",
     seamless="seamless", 
     frameBorder="0"
   )
 ```
--->
+
 ####  The I Do Crew
 
 <div class = "row">

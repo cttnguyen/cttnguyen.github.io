@@ -45,6 +45,9 @@ span.font1{font-family:"TheArtist";font-size:40px;text-transform:none;}
   color: #b76e79;
 }
 
+.dropdown-menu {background-color: #003366}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {background-color: #003366}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {border-bottom-color: #b76e79}
 
 /* define colors for hovering */
 .navbar-nav li a:hover {
@@ -102,6 +105,7 @@ h6{
 library(flexdashboard)
 library(htmltools)
 library(gallerier)
+library(knitr)
 ```
 
 Home
@@ -156,15 +160,14 @@ RSVP
 
 #### Repondez S'il Vous Plait
 
-We have currently turned off our RSVP portal, as we are now postponing our wedding with a new date/location TBD. Please check back later. If you have already RSVP'd for our original date, you will be able to re-fill the RSVP again later or we will follow up with you to double check.
-<!--
-```{r, echo=FALSE, message=FALSE}
+<center>
+```{r, echo=FALSE, message=FALSE, code = readLines("make_rsvp_plot.R")}
 #library(plotly)
-# source('make_rsvp_plot.R')
-#p <- readRDS('rsvp.rds') %>%
-#layout(height = 250)
-#p
+#source('make_rsvp_plot.R')
+#readRDS('rsvp.rds')
 ```
+</center>
+
 
 To RSVP, please fill out the form below and select "Submit." If your plans change for any reason, feel free to contact us or resubmit the form below. 
 
@@ -177,7 +180,7 @@ htmltools::tags$iframe(
     frameBorder="0"
   )
 ```
--->
+
 
 Gallery
 =======================================================================
@@ -191,15 +194,24 @@ Gallery
 
 ```
 
-FAQs
+Postponement FAQ {data-navmenu="FAQs"}
 =======================================================================
+#### Postponement Frequently Asked Questions
 
-#### Frequently Asked Questions
+<br>
+
+```{r COVID_FAQ, child = 'COVID_FAQ.Rmd', eval = TRUE}
+```
+
+General FAQ {data-navmenu="FAQs"}
+=======================================================================
+#### General Frequently Asked Questions
 
 <br>
 
 ```{r FAQ, child = 'FAQ.Rmd', eval = TRUE}
 ```
+
 
 DIY Wedding Blog
 =======================================================================
