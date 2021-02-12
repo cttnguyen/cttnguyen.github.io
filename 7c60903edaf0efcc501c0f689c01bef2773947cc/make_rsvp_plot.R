@@ -54,26 +54,41 @@ df <- rsvp_df %>%
           Attending = 0,
           hover = "") %>% 
   mutate(hover = paste0(abbr2state(State), "<br>", hover))
-l <- list(color = toRGB("lightgray"), width = 2)
+l <- list(color = toRGB("#343a40"), width = 2)
 # specify some map projection/options
 g <- list(
   scope = 'usa',
-  projection = list(type = 'albers usa'),
+  projection = list(type = 'usa',
+                    scale = 1),
   showlakes = F,
   # lakecolor = toRGB('white'),
-  subunitcolor = toRGB('white')
+  subunitcolor = toRGB('white'),
+  bgcolor = "#343a40"
 )
-p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State, 
+p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
         type = 'choropleth', locationmode = 'USA-states', 
+        width = 500, 
         color = ~Attending, colors = 'Blues', 
         marker = list(line = l), hoverinfo = 'text',
-        colorbar = list(title = "RSVPs", len = 1),
-        colorscale = list(c(0, "white"), list(1, "rgb(0,51,102)"))
+        colorbar = list(title = list(text = "RSVPs"), 
+                        titlefont = list(color = '#ffffff'), 
+                        len = 0.75, y = 0.875, x = 0.9,
+                        tickfont = list(color = "#ffffff"),
+                        outlinecolor = 'transparent'),
+        colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
-  layout(geo = g) %>% 
-  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.2, 
+  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.1, 
                   text = paste("*Last updated", Sys.Date()),
-                  showarrow = F, font = list(size = 10)) %>% 
-  plotly_build()
+                  showarrow = F, font = list(size = 10, color = 'white')) %>% 
+  layout(geo = g,
+         paper_bgcolor  = "#343a40",
+         margin=list(t=0,l=0,r=0,b=0,pad=0))
+p
+htmlwidgets::saveWidget(
+  as_widget(p), selfcontained = T,
+  file = "./7c60903edaf0efcc501c0f689c01bef2773947cc/rsvpmap.html",
+  background = "#343a40"
+)
+
 saveRDS(p, 'rsvp.rds')
