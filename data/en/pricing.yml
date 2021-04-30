@@ -1,64 +1,34 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : Things To Do
   pricing_table :
     # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+    - name : Vintage Park
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Shops, spas, dining, and bars
+        - 110 Vintage Park Blvd., Houston TX, 77070
       button:
-        label : "Signup"
-        link : "#"
-      
-    # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+        label : "Visit"
+        link : "http://www.vintageparkhouston.com/"
+    - name : NASA
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - "Two words: outer space"
+        - 1601 NASA Pkwy., Houston, TX 77058
       button:
-        label : "Signup"
-        link : "#"
-        
-    # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+        label : "Visit"
+        link : "https://spacecenter.org/"
+    - name : Houston Zoo
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - The 2nd most visited zoo in the US
+        - 6200 Hermann Park Dr., Houston, TX 77030
       button:
-        label : "Signup"
-        link : "#"
-        
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
+        label : "Visit"
+        link : "https://www.houstonzoo.org/"
+    - name : Museum District
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Includes 19 museums in 4 zones
+        - "Crystal’s favorite: The museum of natural science"
       button:
-        label : "Signup"
-        link : "#"
+        label : "Visit"
+        link : "https://houmuse.org/"

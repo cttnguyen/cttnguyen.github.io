@@ -1,7 +1,7 @@
 ---
 author: Crystal Nguyen
 date: "2020-05-02"
-description: This is meta description
+description: Designing our own save the dates and DIYing the envelopes
 image: images/blog/std_all.jpg
 image_webp: 
 title: Save The Dates
@@ -31,9 +31,8 @@ They came together really well, and with a coupon from Staples, we only spent \$
 
 Okay, now for the envelopes, because you know every extra penny is getting pinched to put toward that sweet, sweet open bar. 
 
-<div align="left">
-<div class = "row">
-<div class = "col-md-6">
+{{<row>}}
+{{<column>}}
 Cricut supplies:
 
 * Explore Air 2 or Maker 
@@ -42,15 +41,16 @@ Cricut supplies:
 * Fine Point Blade
 * Light Grip 12x12 Mat
 * Basic Tool Set
-</div>
-<div class = "col-md-6">
+
+{{</column>}}
+{{<column>}}
 Other:
 
 * 8.5" x 11" Medium-Heavy Weight Cardstock
 * Scotch ATG 700 double sided tape gun (or your preferred adhesive)
-</div>
-</div>
-</div>
+
+{{</column>}}
+{{</row>}}
 
 
 I found a free template for envelopes posted by some very kind soul {{< tablink "see here" "https://www.simplycraftysvgs.com/shop/freebies/basic-envelope-set/" >}} . Most people would post it for sale on Etsy or Cricut, but lucky for me I found these. The trick to get custom sized envelopes is to calculate the scale factor to get the perforation area to fit your card size. The box marking the perforation area is where your card will actually fit into, so you'll also want to leave a bit of extra room. That extra space will leave wiggle room for the card to slide in and for the paper to fold on itself. For example, if the width of the perforate rectangle in the template is 8" and your card is 4" wide, you'll want to resize that box to be 4 1/8" wide. So `4.125 / 8 = 0.52`. Then multiply the width of the entire cut + score object by `0.52` and resize to that value. Do the same with the length. 
@@ -63,7 +63,7 @@ Finally, all that was left was to assemble! Fold along the perforated lines, and
 
 I think that about sums it up. Happy crafting, and stay safe out there!
 
-![](../../../images/blog/std_envelope.jpg)
+![](../../images/blog/std_envelope.jpg)
 
 
 

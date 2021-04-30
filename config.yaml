@@ -1,10 +1,10 @@
-baseURL: https://www.TheLuckettest.com
+baseURL: https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc
 title: "#TheLuckettest"
 theme: meghna-hugo
 paginate: '6'
 summaryLength: '15'
 disqusShortname: ''
-disableLanguages: []
+disableLanguages: 
 params:
   author: Themefisher
   cookies:
@@ -12,13 +12,8 @@ params:
     expire_days: 2
   description: Responsive Multipurpose Parallax Hugo Template
   google_analytics_id: ''
-  # logo: images/logo.png
   map:
-    enable: no
-    gmap_api: https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
-    map_latitude: '51.5223477'
-    map_longitude: '-0.1622023'
-    map_marker: images/marker.png
+    enable: yes
   plugins:
     css:
       - link: plugins/bootstrap/bootstrap.min.css
@@ -38,7 +33,6 @@ params:
   post_share: yes
   preloader:
     enable: no
-    preloader: images/logo.png
   social:
     - icon: ti-facebook
       link: '#'
@@ -68,27 +62,27 @@ Languages:
           weight: 1
         - name: Details
           pre: '#'
-          url: services
+          url: details
           weight: 2
         - name: RSVP
           pre: '#'
-          url: feature
+          url: rsvp
           weight: 3
         - name: Registry
           pre: '#'
-          url: cta
+          url: registry
           weight: 4
         - name: Gallery
           pre: '#'
-          url: portfolio
+          url: gallery
           weight: 5
-        - name: FAQ
-          pre: '#'
-          url: skills
-          weight: 6
         - name: Blog
           pre: '#'
           url: blog
+          weight: 6
+        - name: FAQ
+          pre: '#'
+          url: FAQ
           weight: 7
     weight: 1
 

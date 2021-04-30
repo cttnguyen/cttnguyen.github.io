@@ -3,7 +3,7 @@
 {{ if $data.pricing.pricing.enable }}
 {{ with $data.pricing.pricing }}
 {{"<!-- Start Pricing section -->" | safeHTML}}
-<section id="pricing" class="pricing section">
+<section id="things-to-do" class="pricing section">
   <div class="container">
     <div class="row justify-content-center">
 
@@ -25,7 +25,6 @@
           {{"<!-- plan name & value -->" | safeHTML}}
           <div class="price-title">
             <h3>{{ .name }}</h3>
-            <p><strong class="value">{{ .price }}</strong>/ {{ .unit }}</p>
           </div>
 
           {{"<!-- plan description -->" | safeHTML}}

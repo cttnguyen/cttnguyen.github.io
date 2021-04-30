@@ -9,7 +9,7 @@ service:
       content : |
         Friday, February 25, 2022 
         
-        Northwest Houston Vietnamese Alliance Church
+        NW Houston Vietnamese Alliance Church
         
         5133 Addicks Satsuma Rd, Cypress, TX 77084
         
@@ -57,7 +57,11 @@ service:
       content : |
         Element Houston Vintage Park
         
-        We are still working to confirm the new block contract. Please stay tuned for booking details to receive the group discounted rate.
+        $94/night 
+        
+        Follow _[this link](https://www.marriott.com/event-reservations/reservation-link.mi?id=1615400542682&key=GRP&app=resvlink)_ to book 
+        
+        Or call and mention "Nguyen-Luckett Wedding"
     
     # service item loop
     - name : Getting Around
@@ -65,6 +69,10 @@ service:
       content : |
         Shuttle transportation
         
-        We are hoping to book shuttle transportation for one or both evenings from the hotel round trip to the venue locations. We will update as soon as we know!
+        TBD
+        
+        We hope to book round trip shuttles for one or both events.
+        
+        Stay tuned for more information!
     
     

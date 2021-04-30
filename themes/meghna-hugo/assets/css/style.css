@@ -70,8 +70,9 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: #b76e79;
   transition: all .3s ease-in 0s;
+  text-decoration: underline;
 }
 
 iframe {
@@ -82,16 +83,19 @@ iframe {
 iframe .body {
   background-color: #343a40;
 }
+
+
 a,
 a:focus,
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   outline: 0;
+  color: #b76e79;
 }
 
 a:focus,
 a:hover {
-  color: #6CB670;
+  color: #ffffff;
 }
 
 .kill-margin-bottom {
@@ -376,6 +380,10 @@ a:hover {
   transition: all 0.3s ease-out;
 }
 
+.mfp-img {
+  background-color: transparent;
+}
+
 .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1;
 }
@@ -447,7 +455,7 @@ a:hover {
 
 .hero-area {
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -781,6 +789,7 @@ a:hover {
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  background-color: #192f47;
 }
 
 
@@ -819,6 +828,10 @@ a:hover {
 #map {
   height: 370px;
   width: 100%;
+}
+
+#map-container {
+  background-color: #192f47;
 }
 
 /*=================================================================
@@ -903,11 +916,15 @@ a:hover {
   margin: 20px 0;
 }
 
+#pricing {
+  background-color: #192f47;
+}
+
 /*=================================================================
   Portfolio section
 ==================================================================*/
 .portfolio {
-  background: #192f47;
+  background: #343a40;
 }
 
 .portfolio-filter {
@@ -937,7 +954,7 @@ a:hover {
 
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: rgba(0, 0, 0, 0.25);
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -953,7 +970,7 @@ a:hover {
 }
 
 .portfolio-block:hover:before {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .portfolio-block:hover .caption h4 {
@@ -1020,6 +1037,9 @@ a:hover {
   font-size: 50px;
 }
 
+#services {
+  background-color: #192f47;
+}
 /*=================================================================
   Services section 2
 ==================================================================*/
@@ -1070,9 +1090,8 @@ a:hover {
   outline: none;
   transition: 0.4s;
   border-radius: 0.25rem;
-  text-align: left;
-  cursor: pointer;
   position: relative;
+  padding-right: 5px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -1081,7 +1100,8 @@ a:hover {
 }
 
 .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: "\276E"; /* Unicode character for "plus" sign (+) */
+  transform: rotate(270deg);
   font-size: 13px;
   color: #ffffff;
   float: right;
@@ -1089,7 +1109,8 @@ a:hover {
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\276E"; /* Unicode character for "minus" sign (-) */
+  transform: rotate(90deg);
 }
 
 /* Style the accordion panel. Note: hidden by default */

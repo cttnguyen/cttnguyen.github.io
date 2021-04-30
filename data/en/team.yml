@@ -8,7 +8,6 @@ team:
       # image_webp : images/team/team-1.webp
       image : images/team/casey2.jpg
       designation : Very Important Partier
-      content : Friends with Crystal since the 5th grade.
       # social :
       #   - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
       #     link : "#"
@@ -23,46 +22,46 @@ team:
     - name : Michael Lawson
       image : images/team/michael4.jpg
       designation : Very Important Partier
-      content : Grad school friends with Daniel and Crystal
+      content :
 
     # team member loop
     - name : Anna Kahkoska
       image : images/team/anna2.jpg
       designation : Crewmember
-      content : Grad school friends with Daniel and Crystal
+      content : 
       
       # team member loop
     - name : Nuvan Rathnayaka
       image : images/team/nuvan4.jpg
       designation : Crewmember
-      content : Grad school friends with Daniel and Crystal
+      content :
       
             # team member loop
     - name : Jonathan Lehman
       image : images/team/jonathanL.jpg
       designation : Crewmember
-      content : Daniel's friend from college
+      content : 
       
             # team member loop
     - name : Jonathan Nguyen
       image : images/team/jonathanN2.jpeg
       designation : Crewmember
-      content : Crystal's brother
+      content : 
       
             # team member loop
     - name : Joshua Nguyen
       image : images/team/josh2.jpg
       designation : Crewmember
-      content : Crystal's brother
+      content : 
       
             # team member loop
     - name : Barbara Luckett
       image : images/team/barbara3.jpg
       designation : Crewmember
-      content : Daniel's sister
+      content :
       
             # team member loop
     - name : Graham Johnson
       image : images/team/graham.jpg
       designation : Ring Security
-      content : Daniel's nephew
+      content :

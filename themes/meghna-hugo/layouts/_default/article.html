@@ -6,8 +6,8 @@
 
     <div class="content">
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <p>{{ .Summary }}</p>
-      <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+      <p>{{ .Description }}</p>
+      <a class="btn btn-transparent" href="{{ .Permalink }}" target = "_self">{{ i18n "readMore" }}</a>
     </div>
   </div>
 </article>

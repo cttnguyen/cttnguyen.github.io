@@ -1,7 +1,7 @@
 <section class="sticky-top navigation">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
+			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}" target = "_self">
 				{{ if site.Params.logo }}
 				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="42">
 				{{ else }}
