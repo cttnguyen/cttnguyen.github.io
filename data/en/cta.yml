@@ -1,0 +1,8 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  title : "Registry"
+  content : |
+    We ask that there be no boxed gifts brought to the wedding. It sure would be difficult to bring gifts home with us to Boston! Both registries will allow you to ship directly to us. A box will be available at the reception for any cards.
+  button:

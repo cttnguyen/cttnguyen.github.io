@@ -1,0 +1,8 @@
+{{- $text := .Get 0 }}
+{{- $url := .Get 1 }}
+{{- $modifier := .Get 2 -}}
+<span style="text-decoration:underline;">
+  <a href="{{ $url }}" target="_blank">
+    {{ $text }}
+  </a>
+</span>

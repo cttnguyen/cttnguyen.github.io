@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>
+          <span style="color: #ffffff; font-size: 125px">
+            {{ .Title }}
+          </span>
+        </h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item">
+            <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">
+              <span style="color: #b76e79">{{ .Params.Author }}</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <span style="color: #b76e79">
+              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+            </span>
+          </li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+      </div>
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          {{ .Content }}
+        </div>
+        <!-- comments -->
+        <div class="mt-5">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
