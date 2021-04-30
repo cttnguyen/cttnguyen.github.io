@@ -11,7 +11,7 @@ output: html_document
 
 ###### Vietnamese Tea Ceremony
 
-**Friday, February ?, 2022**
+**Friday, February 25, 2022**
 
 Northwest Houston Vietnamese Alliance Church
 
@@ -27,13 +27,11 @@ Dinner to Follow
 
 ###### Wedding and Reception
 
-**Saturday, February ?, 2022**
+**Saturday, February 26, 2022**
 
-<!-- The SPRINGS in Cypress -->
+The Estates at Pecan Park
 
-We are looking for a new venue! Date and Location are TBD, but we are looking for a Saturday in Feburary 2022 in the Cypress, TX area.
-
-<!-- 12612 Malcomson Rd, Cypress, TX 77070 -->
+22633 Park Rd, Tomball, TX 77377
 
 Ceremony (Time TBA)
 <!-- 4:00 pm -->
@@ -54,7 +52,7 @@ Dinner and Drinks to Follow
 
 A block of rooms has been reserved for $96/night. All rooms include a kitchennette, and all reservations include free WiFi, parking, and breakfast. Please use the link above or mention "Nguyen-Luckett Wedding" on the phone to reserve your stay at group rates! -->
 
-We believe we are still booking with Element Houston Vintage Park, but the wedding block deal is TBD until we figure out the when and where we are getting married.
+We believe we are still booking with Element Houston Vintage Park, but we are still working to confirm the new block. Please stay tuned for booking details to receive the group discounted rate. 
 
 <br>
 <br>
@@ -95,7 +93,7 @@ htmltools::tags$iframe(
 
 ###### Getting Around
 
-More information coming soon!
+We are hoping to book shuttle transportation for one or both evenings from the hotel. We will update as soon as we know!
 
 <br>
 <br>
