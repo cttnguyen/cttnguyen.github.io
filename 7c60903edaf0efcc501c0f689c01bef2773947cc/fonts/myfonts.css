@@ -1,0 +1,16 @@
+@font-face{
+  font-family: 'TheArtist';
+  src: url(TheArtist.woff) format('woff'),
+       url(TheArtist.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face{
+  font-family: 'Neris-Thin';
+  src: url(Neris-Thin.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
