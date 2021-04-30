@@ -1,9 +1,12 @@
+## @knitr makeplot
+
 library(plotly)
 library(tidyverse)
 library(googlesheets4)
 library(openintro)
 
-sheets_auth(email = "crystalmarriesdaniel@gmail.com")
+#sheets_auth(email = "crystalmarriesdaniel@gmail.com")
+gs4_auth(email = "crystalmarriesdaniel@gmail.com")
 invitations = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0B-CNApGICnRlaSuTCFX8s9OgSAQ/edit#gid=409297580", 
                          sheet = 'Invitations', skip = 3) %>% 
   filter(!is.na(`Short Name`)) %>% 
@@ -54,7 +57,9 @@ df <- rsvp_df %>%
           Attending = 0,
           hover = "") %>% 
   mutate(hover = paste0(abbr2state(State), "<br>", hover))
+
 l <- list(color = toRGB("#343a40"), width = 2)
+
 # specify some map projection/options
 g <- list(
   scope = 'usa',
@@ -92,3 +97,4 @@ htmlwidgets::saveWidget(
 )
 
 saveRDS(p, 'rsvp.rds')
+
