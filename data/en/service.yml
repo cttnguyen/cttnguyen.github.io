@@ -1,0 +1,70 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Details
+  service_item :
+    # service item loop
+    - name : Vietnamese Tea Ceremony
+      # icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : |
+        Friday, February 25, 2022 
+        
+        Northwest Houston Vietnamese Alliance Church
+        
+        5133 Addicks Satsuma Rd, Cypress, TX 77084
+        
+        Ceremony (Time TBA)
+        
+        Dinner to Follow
+      
+    # service item loop
+    - name : Wedding & Reception
+      # icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : |
+        Saturday, February 26, 2022
+
+        The Estates at Pecan Park
+  
+        22633 Park Rd, Tomball, TX 77377
+
+        Ceremony (Time TBA)
+        
+        Dinner and Drinks to Follow
+        
+    # service item loop
+    - name : Getting Here
+      # icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : |
+        George Bush Intercontinental Airport
+        
+        35 minutes to Cypress
+        
+        Recommended for most airlines
+        
+    # service item loop
+    - name : Getting Here
+      # icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
+      content : |
+        William P. Hobby Airport
+        
+        45 minutes to Cypress
+        
+        Recommended for Southwest airlines
+        
+    # service item loop
+    - name : Lodging
+      # icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : |
+        Element Houston Vintage Park
+        
+        We are still working to confirm the new block contract. Please stay tuned for booking details to receive the group discounted rate.
+    
+    # service item loop
+    - name : Getting Around
+      # icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : |
+        Shuttle transportation
+        
+        We are hoping to book shuttle transportation for one or both evenings from the hotel round trip to the venue locations. We will update as soon as we know!
+    
+    

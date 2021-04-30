@@ -1,0 +1,31 @@
+############################# feature ###################################
+feature:
+  enable : true
+  # image : images/about/about-business-man.jpg
+  # image_webp : images/about/about-business-man.webp
+  title : Repondez S’il Vous Plait
+  content : |
+  
+    To RSVP, please fill out the form below and select “Submit.” 
+    
+    If your plans change for any reason, feel free to contact us or resubmit the form below.
+    
+  #     # feature item loop
+  #   - title : SEO Optimized
+  #     icon : ti-world # themify icon pack : https://themify.me/themify-icons
+  #     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  #     
+  #     # feature item loop
+  #   - title : Easy Customization
+  #     icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+  #     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  # 
+  #     # feature item loop
+  #   - title : SEO Optimized
+  #     icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+  #     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  #     
+  #     # feature item loop
+  #   - title : Easy Customization
+  #     icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+  #     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

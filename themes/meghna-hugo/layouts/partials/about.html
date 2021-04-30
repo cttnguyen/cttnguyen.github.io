@@ -1,0 +1,58 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="bg-one about section" id="about">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+					<h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+			<div class="content-block">
+					<p>{{ .content | markdownify }}</p>
+					<div class="row">
+						{{ range .feature_item }}
+						<div class="col-lg-6">
+							<div class="media">
+								{{with .icon}}
+								<div class="align-self-start mr-3">
+									<i class="{{ . }}"></i>
+								</div>
+								{{ end }}
+								<div class="media-body">
+									<p>{{ .content | markdownify }}</p>
+								</div>
+							</div>
+						</div>
+						{{ end }}
+					</div>
+				</div>
+				<div data-type="countdown" data-id="2405469" class="tickcounter" style="width: 400px; height: 100px; margin: 0 auto"><a href="//www.tickcounter.com/countdown/2405469/countdown-to-our-wedding" title="Countdown To Our Wedding">Countdown To Our Wedding</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+			{{ range .about_item }}
+			{{"<!-- About item -->" | safeHTML}}
+			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block">
+					<div class="icon-box">
+						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
+					</div>
+					{{"<!-- Express About Yourself -->" | safeHTML}}
+					<div class="content text-center">
+						<h3>{{ .title }}</h3>
+						<p>{{ .content | markdownify }}</p>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+{{ end }}

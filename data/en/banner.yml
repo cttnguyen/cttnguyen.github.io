@@ -1,0 +1,15 @@
+############################### Banner ################################
+banner:
+  enable : true
+  # bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/391A4472.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Crystal & Daniel"
+  content : |
+    Have Postponed Their Wedding!
+  
+    Cypress, Texas
+  
+    02/26/2022
+  button:
+    enable : false

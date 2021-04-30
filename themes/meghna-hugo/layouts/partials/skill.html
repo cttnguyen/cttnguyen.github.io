@@ -1,0 +1,44 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.skill.skill.enable }}
+{{ with $data.skill.skill }}
+{{"<!-- Skills -->" | safeHTML }}
+<section id="skills" class="section section-bg">
+	<div class="container">
+		<div class="row">
+			{{"<!-- section title -->" | safeHTML }}
+			<div class="col-lg-12">
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML }}
+		</div>
+		<div class="row">
+		  
+			{{ range .skill_item}}
+        <div class="accordion">{{ .question | markdownify }}</div>
+          <div class="panel">
+            <p>{{ .answer | markdownify }}</p>
+            {{ if .link }}
+  				    <div class ="col-sm-6 text-center">
+	  			      <a href="#contact" class="btn btn-main">RSVP Now</a>
+		  		      <br><br>
+		  		    </div>
+            {{ end }}
+          </div>
+      {{ end }}
+    </div>
+
+		</div>
+</section>
+{{"<!-- /skill -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+
+
+
+
