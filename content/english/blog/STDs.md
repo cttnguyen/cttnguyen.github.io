@@ -19,12 +19,12 @@ First, you'll want to go to `File > Document Properties` and set the size of you
 Easily add words using the text box feature. Luckily, unlike the Cricut Design Space software, you do not have to manually place letters. Similar to Microsoft Word, you can set the character and line spacing to your preferences. 
 
 
-![](../../../images/blog/std_inkscape_test3.png)
+![](../../images/blog/std_inkscape_test3.png)
 
 
 Honestly, the back was more difficult because of the flowers. I found an image using these flowers as a free scalable vector graphic (svg) file just by a simple google search. You want to find a .svg as opposed to another image filetype to better maintain the quality of the image when you go to print. That way, you'll limit the risk of getting something that looks really rough and pixelated. Again, I fiddled around with it, cropping, duplicating, rotating, and more to rearrange the original flower file into the repeated pattern with the middle section cut out. It took longer than I'd like to admit, but the back of the card ___needed___ color.  
 
-![](../../../images/blog/std_back2.png)
+![](../../images/blog/std_back2.png)
 
 
 They came together really well, and with a coupon from Staples, we only spent \$60 to print 250 of them at the postcard size. We did not need 250, but this was the smallest amount we could buy to get the number we actually needed (125). Compare this to using a premade template and just filling in our information for \$175 at Vistaprint at the time we got them printed (December 2019) for 150. And we wouldn't get to use our own fonts, either!
