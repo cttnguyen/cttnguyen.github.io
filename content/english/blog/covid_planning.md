@@ -61,7 +61,7 @@ Because of our 4 hour drive, I booked the last appointment of the day to make su
 
 Without multiple appointments at a time, Cocomelody also turned their 2 changing rooms into 1 large one, so I wasn't constantly bumping elbows on the walls like at David's Bridal. I know I'm not so big, but those dresses take up a lot of space, especially when there's multiple in there!
 
-I did not walk out with the dress I had come in for (it turns out not all dresses were made for sitting in), but Qiara made sure I got a good one ;). I won't spoil the surprise with pictures of _the_ dress, but here's a photo of a different dress. My mom really wanted to see me in a "princess dress," and I do admit that it gave me Cinderella vibes. It just wasn't what I wanted. Shoutouts to VIP Casey for taking screenshot photos for me, sorry they're a bit grainy!
+I did not walk out with the dress I had come in for (it turns out not all dresses were made for sitting in), but Qiara made sure I got a good one ;). I won't spoil the surprise with pictures of _the_ dress, but here's a photo of a different dress. My mom really wanted to see me in a "princess dress," and I do admit that it gave me Cinderella vibes. It just wasn't what I wanted. Shoutouts to VIP Casey for taking screenshot photos for me, sorry it's a bit grainy!
 
 
 ![](../../images/blog/dressshopping.JPG)
