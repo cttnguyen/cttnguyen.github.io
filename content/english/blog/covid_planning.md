@@ -2,8 +2,9 @@
 author: Crystal Nguyen
 date: "2021-05-27"
 description: The trials and silver linings of planning a wedding in the middle of a pandemic
-image: images/blog/CTDs.jpg
-title: "COVID Wedding Planning"
+image: images/blog/CTDs.JPG
+image_webp: 
+title: COVID Wedding Planning
 ---
 
 There isn't really any crafting in this post, since I haven't finished much of anything (yet), but I do have a couple of projects in the works. Instead, I wanted to document a little bit of what it's like to plan a wedding while there's an ongoing pandemic. To be frank, it sucks. We've kept mostly positive about it, and we know that while the pandemic has put a damper on our plans, it's also...you know...been a generally terrible time for the entire world. Anyways, these are just three of the top COVID-wedding-planning tidbits that stick out for us.
@@ -63,7 +64,7 @@ Without multiple appointments at a time, Cocomelody also turned their 2 changing
 I did not walk out with the dress I had come in for (it turns out not all dresses were made for sitting in), but Qiara made sure I got a good one ;). I won't spoil the surprise with pictures of _the_ dress, but here's a photo of a different dress. My mom really wanted to see me in a "princess dress," and I do admit that it gave me Cinderella vibes. It just wasn't what I wanted. Shoutouts to VIP Casey for taking screenshot photos for me, sorry they're a bit grainy!
 
 
-![](../../../images/blog/dressshopping.jpg)
+![](../../../images/blog/dressshopping.JPG)
 
 See you next time!
   
