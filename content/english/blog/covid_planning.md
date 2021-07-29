@@ -21,7 +21,7 @@ They would not budge on this in advance, so we went ahead and started planning f
 
 Looking for a new venue got us excited about wedding planning again. We added a new item to our venue wish list for this second go-around: No Chains/Corporations! We wanted a family owned business with a management team that actually cared if things were going well for their couples. We found just that, if not more, with our new venue, The Estates at Pecan Park (TEPP). This place was completely new, owned and run by a hard working couple with 5 kids. They did everything for their business, from property repairs to on-site coordination. We loved them. There was no glossy salesmanship involved during the tour, just downright good people working their beautiful venue. 
 
-![](../../../images/blog/TEPP.jpg)
+![](../../images/blog/TEPP.jpg)
 
 Since booking with TEPP, Stacy, the owner, has been nothing but kind and gracious, going above and beyond to make us feel at ease with our cross-country, mid-pandemic wedding planning. Of course we're sad our original venue didn't work out, but we're excited that our wedding is just going to be even better thanks to working with better, friendlier businesses.
 
@@ -41,7 +41,7 @@ The wait has built up a lot of the energy for our new date. It will be the first
 
 Especially with things opening back up again and our new date getting closer and closer, we're getting back into wedding planning. There's lots of fun crafting coming up, so stay tuned for it.
 
-![](../../../images/blog/kimjosh.jpg)
+![](../../images/blog/kimjosh.jpg)
 
 ## 3. Dress Shopping
 
@@ -64,7 +64,7 @@ Without multiple appointments at a time, Cocomelody also turned their 2 changing
 I did not walk out with the dress I had come in for (it turns out not all dresses were made for sitting in), but Qiara made sure I got a good one ;). I won't spoil the surprise with pictures of _the_ dress, but here's a photo of a different dress. My mom really wanted to see me in a "princess dress," and I do admit that it gave me Cinderella vibes. It just wasn't what I wanted. Shoutouts to VIP Casey for taking screenshot photos for me, sorry they're a bit grainy!
 
 
-![](../../../images/blog/dressshopping.JPG)
+![](../../images/blog/dressshopping.JPG)
 
 See you next time!
   
