@@ -5,21 +5,51 @@ funfacts:
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   counter_item:
     # counter item loop
-    - title : "Happy Clients"
-      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
-      count : "320"
+    - title : "Windsurfing Lessons"
+      # icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+      count : "138"
     
     # counter item loop
-    - title : "Projects completed"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
-      count : "350"
+    - title : "Catamaran Rental"
+      #icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+      count : "118"
     
     # counter item loop
-    - title : "Positive feedback"
-      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
-      count : "158"
+    - title : "Kayak Rental"
+      #icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+      count : "39"
     
     # counter item loop
-    - title : "Cups of Coffee"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
-      count : "250"
+    - title : "Stand Up Paddle Board"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "48"
+      
+      # counter item loop
+    - title : "Snorkeling Lesson"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "98"
+      
+      # counter item loop
+    - title : "Snorkel Safari"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "118"
+      
+      # counter item loop
+    - title : "Turtle Reef Snorkel"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "98"
+      
+      # counter item loop
+    - title : "Manta Ray Snorkel"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "220"
+      
+      # counter item loop
+    - title : "Private Beach Dinner"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "200"
+      
+      # counter item loop
+    - title : "Resort Dinner"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "100"

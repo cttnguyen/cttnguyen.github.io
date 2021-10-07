@@ -4,5 +4,66 @@ cta:
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   title : "Registry"
   content : |
-    We ask that there be no boxed gifts brought to the wedding. It sure would be difficult to bring gifts home with us to Boston! Both registries will allow you to ship directly to us. A box will be available at the reception for any cards.
+    Your presence at our wedding is the best gift we could ask for, but we are honored that you are looking to give us a gift as well! We ask that there be no boxed gifts brought to the wedding. It sure would be difficult to bring gifts home with us to Boston.
+
+    We are registered with Amazon and Crate & Barrel, both of which will allow you to ship directly to us. Alternatively, our wedding registry includes a honeymoon fund along with personalized experiences that can be given as wedding gifts. Gifts to this fund will help to make our trip to the Maldives a memorable one! A box will be available at the reception for any cards.
+
+    Thank you so much for keeping us in your minds and hearts—we’re so grateful for all of you!
   button:
+  counter_item:
+    # counter item loop
+    - title : "Windsurfing Lessons"
+      # icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+      count : "138"
+      
+    - title : "Catamaran Lessons"
+      purchased : true
+      count : "130"
+    
+    # counter item loop
+    - title : "Catamaran Rental"
+      #icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+      count : "118"
+    
+    # counter item loop
+    - title : "Kayak Rental"
+      #icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+      count : "39"
+    
+    # counter item loop
+    - title : "Stand Up Paddle Board"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "48"
+      
+      # counter item loop
+    - title : "Snorkeling Lesson"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "98"
+      
+      # counter item loop
+    - title : "Snorkel Safari"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "118"
+      
+      # counter item loop
+    - title : "Turtle Reef Snorkel"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "98"
+      
+      # counter item loop
+    - title : "Manta Ray Snorkel"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "220"
+      
+    - title : "Couple's Massage"
+      count : "180"
+      
+      # counter item loop
+    - title : "Private Beach Dinner"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "200"
+      
+      # counter item loop
+    - title : "Resort Dinner"
+      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "100"
