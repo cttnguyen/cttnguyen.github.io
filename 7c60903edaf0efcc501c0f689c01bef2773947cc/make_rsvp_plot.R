@@ -25,7 +25,7 @@ crosswalk = read_sheet("https://docs.google.com/spreadsheets/d/1mwJ75RelvJ55I4E0
 rsvp_df <- read_sheet("https://docs.google.com/spreadsheets/d/1ZwOWDuDJZc7m_LoD3RqU4FnDdfDZyvVn9jHjTQxp8JY/edit#gid=999873728")
 
 # Extract name field
-rsvp_names = rsvp_df$`Please list the first and last names of those attending the Saturday wedding, separated by commas (for example, "John Smith, Jane Smith, Jenny Smith").`
+rsvp_names = rsvp_df$`Please list the first and last names of those attending, separated by commas (for example, "John Smith, Jane Smith, Jenny Smith").`
 
 # Create variable for full name of first person on each RSVP
 rsvp_df$full_name = rsvp_names %>% 
@@ -36,11 +36,10 @@ rsvp_df$full_name = rsvp_names %>%
 rsvp_df = rsvp_df %>% separate(full_name, into = c("First Name", 
                                                    "Last Name"))
 
-df <- rsvp_df %>% 
+df <- rsvp_df %>%
   transmute(`First Name`, 
             `Last Name`,
-            Attending = pmax(`Number Attending the Friday Tea Ceremony`,
-                            `Number Attending the Saturday Wedding & Reception`)) %>%
+            Attending = `Number Attending Wedding and Reception on Saturday, February 26th, 2022`) %>%
   left_join(crosswalk, by = c("First Name", "Last Name")) %>% 
   filter(!is.na(`Inv #`)) %>% 
   left_join(invitations, by = "Inv #") %>% 
@@ -83,8 +82,8 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
         colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
-  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = -0.1, 
-                  text = paste("*Last updated", Sys.Date()),
+  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = 0.1, 
+                  text = paste("*Last updated", format(Sys.Date(), "%m/%d/%Y")),
                   showarrow = F, font = list(size = 10, color = 'white')) %>% 
   layout(geo = g,
          paper_bgcolor  = "#343a40",
