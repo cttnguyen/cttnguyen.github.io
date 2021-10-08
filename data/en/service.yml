@@ -3,21 +3,6 @@ service:
   enable : true
   title : Details
   service_item :
-    # service item loop
-    - name : Vietnamese Tea Ceremony
-      # icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : |
-        Friday, February 25, 2022 
-        
-        NW Houston Vietnamese Alliance Church
-        
-        5133 Addicks Satsuma Rd, Cypress, TX 77084
-        
-        Ceremony (Time TBA)
-        
-        Dinner to Follow
-      
-    # service item loop
     - name : Wedding & Reception
       # icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : |
@@ -31,27 +16,6 @@ service:
         
         Dinner and Drinks to Follow
         
-    # service item loop
-    - name : Getting Here
-      # icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : |
-        George Bush Intercontinental Airport
-        
-        35 minutes to Cypress
-        
-        Recommended for most airlines
-        
-    # service item loop
-    - name : Getting Here
-      # icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : |
-        William P. Hobby Airport
-        
-        45 minutes to Cypress
-        
-        Recommended for Southwest airlines
-        
-    # service item loop
     - name : Lodging
       # icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       content : |
@@ -62,8 +26,21 @@ service:
         Follow _[this link](https://www.marriott.com/event-reservations/reservation-link.mi?id=1615400542682&key=GRP&app=resvlink)_ to book 
         
         Or call and mention "Nguyen-Luckett Wedding"
+        
+        (281) 379-7300
+        
+    - name : Getting Here
+      # icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : |
+        George Bush Intercontinental Airport (IAH)
+        
+        35 minutes to Cypress
+        
+        William P. Hobby Airport (HOU)
+        
+        45 minutes to Cypress
     
-    # service item loop
+        
     - name : Getting Around
       # icon : ti-palette # themify icon pack : https://themify.me/themify-icons
       content : |
@@ -71,7 +48,7 @@ service:
         
         TBD
         
-        We hope to book round trip shuttles for one or both events.
+        We hope to book a round trip shuttle service.
         
         Stay tuned for more information!
     

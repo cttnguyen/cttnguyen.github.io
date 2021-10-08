@@ -6,49 +6,51 @@ skill:
   image : 
   skill_item :
     # skill item loop
-    - question : "1. Can you tell me more about the Vietnamese tea ceremony?"
+    
+    - question :  "1. What COVID precautions will you be taking"
       answer : |
-        The tea ceremony is the traditional wedding ritual performed in Vietnamese culture. The bride and groom pour tea for their parents and grandparents while receiving blessings or marital advice in return. Please note that it may be difficult to hear some of the more intimate parts of the ceremony which are performed without a microphone.
-  
-        The main difference for guests is the procession. The family of the bride gathers inside the sanctuary upon arrival. Barring any inclement weather, family of the groom and any friends are asked to assemble outside and follow the procession inside when the ceremony begins.
+        This is a great question, and we do not have a great answer.
+        
+        We are waiting to see how some things pan out (like the Delta and Mu variants and Biden's proposal to invest in more rapid testing), but we will try to make the best decision to keep ourselves and all of you safe.
+       
+        Please check back as we get closer to the date for more information.
+        
+    - question : "2. What happened to the Vietnamese Tea Ceremony?"
+      answer : |
+        We would have loved for you all to be there, but unfortunately we are no longer able to invite all guests to this event as we had initially intended.
+        
+        For this reason, we are now planning the tea ceremony separately from the main wedding event, and we will have a reduced guest list.
+        
+        We hope that you can understand the difficult choices we've had to make in light of the pandemic, and we apologize for any confusion or inconvience this may have made.
 
-        We know that attending a Friday event may be difficult for many, but we hope you’ll join us if you are able to make it!
+    - question :  "3. What is the recommended attire?"
+      answer : |
+        We recommend semi-formal: your favorite suit, cocktail dress, or jumpsuit.
       
-    # skill item loop
-    - question :  "2. What is the recommended attire?"
-      answer : |
-        For the wedding on Saturday, we recommend semi-formal: your favorite suit, dress, or pantsuit.
-
-        For the tea ceremony on Friday, we recommend “dressy casual” (see here). We also welcome ao dai, a traditional Vietnamese style of clothing, or any traditional attire from your culture.
-
         However, we hope that you will feel free to come as you are, whether that’s in a t-shirt and jeans or your prom dress!
-      
-    # skill item loop
-    - question :  "3. Is any part of the celebration outdoors?"
+
+    - question :  "4. Is any part of the celebration outdoors?"
       answer : |
         Yes, the wedding ceremony and cocktail hour will be held outdoors. This is subject to change in the case of inclement weather.
-      
-    - question :  "4. Where can I find parking?"
-      answer : |
-        The hotel and both venues all have ample parking available for free.
-      
-    # skill item loop
-    - question :  "5. Will transportation be provided?"
-      answer : |
-        This is still TBA, but we are hoping to find shuttle transportation to and from the hotel on both evenings!
         
-    # skill item loop
-    - question :  "6. How should I submit my RSVP?"
+        Depending on the pandemic, we may move the reception to be outdoors as well.
+      
+    - question :  "5. Where can I find parking?"
+      answer : |
+        The hotel and venue both have ample parking available for free.
+
+    - question :  "6. Will transportation be provided?"
+      answer : |
+        This is still TBA, but we are hoping to find shuttle transportation to and from the hotel so you can take full advantage of our open bar.
+        
+    - question :  "7. How should I submit my RSVP?"
       answer : |
         If you have already RSVP'd, no need to worry about letting us know twice. We'll just take your most recent response toward our headcount.
       
         You can RSVP by mailing back the RSVP card found in your invitation or by filling out our form online here:
       link: true
-        
-        
-        
-    # skill item loop
-    - question :  "7. Who is Bishop?"
+      
+    - question :  "8. Who is Bishop?"
       answer : |
         Since you've made it this far, you must know the password to this site, and you might be wondering who Bishop is. Bishop is the cutest cat in Boston (and maybe the world). Here he is lying on one of his cat beds, also known as \"Crystal\'s Sweaters.\"
       image: images/blog/bishop_on_sweaters.jpg
