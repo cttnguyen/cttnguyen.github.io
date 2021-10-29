@@ -62,6 +62,6 @@ team:
       
             # team member loop
     - name : Graham Johnson
-      image : images/team/graham.jpg
+      image : images/team/graham_2021_2.jpg
       designation : Ring Security
       content :
