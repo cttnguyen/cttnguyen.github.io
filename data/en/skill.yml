@@ -9,11 +9,11 @@ skill:
     
     - question :  "1. What COVID precautions will you be taking"
       answer : |
-        This is a great question, and we do not have a great answer.
+        To keep our vendors and loved ones safe, we respectfully request that all guests aged 5 and up be fully vaccinated against COVID-19 prior to attending the wedding. Guests under age 5 are still welcome.
         
-        We are waiting to see how some things pan out (like the Delta and Mu variants and Biden's proposal to invest in more rapid testing), but we will try to make the best decision to keep ourselves and all of you safe.
-       
-        Please check back as we get closer to the date for more information.
+        Masks are welcome but not required, and hand sanitizer will be available throughout the venue.
+        
+        As the pandemic situation is constantly changing, these precautions are subject to change to be more or less stringent. Please check back as we get closer to the date for the most up to date information.
         
     - question : "2. What happened to the Vietnamese Tea Ceremony?"
       answer : |
@@ -38,10 +38,14 @@ skill:
     - question :  "5. Where can I find parking?"
       answer : |
         The hotel and venue both have ample parking available for free.
+        
+        The parking area at the venue is not paved, but a courtesy golf cart shuttle will be available to transport guests from the parking area to the venue entrance.
 
     - question :  "6. Will transportation be provided?"
       answer : |
-        This is still TBA, but we are hoping to find shuttle transportation to and from the hotel so you can take full advantage of our open bar.
+        Yes, there will be a coach bus to transport guests between the venue and hotel.
+        
+        The schedule is still to be determined. Tentatively, the shuttle will depart the hotel at 3:30 PM. Then, beginning at 8:00 PM, it will make trips back to the hotel as needed with a final trip at 10:00 PM.
         
     - question :  "7. How should I submit my RSVP?"
       answer : |

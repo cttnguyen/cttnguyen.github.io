@@ -44,12 +44,12 @@ service:
     - name : Getting Around
       # icon : ti-palette # themify icon pack : https://themify.me/themify-icons
       content : |
-        Shuttle transportation
+        Shuttle Transportation
         
-        TBD
+        _Tentative Schedule_:
         
-        We hope to book a round trip shuttle service.
+        Departs from hotel at 3:30 PM
         
-        Stay tuned for more information!
+        Return trips 8:00-10:00 PM as needed
     
     
