@@ -81,7 +81,7 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
                         outlinecolor = 'transparent'),
         colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
-  colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
+  colorbar(title = 'RSVPs', limits = c(0, 15)) %>%
   add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = 0.1, 
                   text = paste("*Last updated", format(Sys.Date(), "%m/%d/%Y")),
                   showarrow = F, font = list(size = 10, color = 'white')) %>% 
@@ -91,7 +91,7 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
 p
 htmlwidgets::saveWidget(
   as_widget(p), selfcontained = T,
-  file = "./7c60903edaf0efcc501c0f689c01bef2773947cc/rsvpmap.html",
+  file = "./static/rsvpmap.html",
   background = "#343a40"
 )
 
