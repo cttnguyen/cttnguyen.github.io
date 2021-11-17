@@ -90,10 +90,10 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
   layout(geo = g,
          paper_bgcolor  = "#343a40",
          margin=list(t=0,l=0,r=0,b=0,pad=0))
-p
+#p
 htmlwidgets::saveWidget(
   as_widget(p), selfcontained = T,
-  file = "./static/rsvpmap.html",
+  file = normalizePath("./static/rsvpmap.html"),
   background = "#343a40"
 )
 
