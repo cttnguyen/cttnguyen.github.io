@@ -60,7 +60,7 @@ cta:
       
       # counter item loop
     - title : "Private Beach Dinner"
-      #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      purchased: true
       count : "200"
       
       # counter item loop
