@@ -53,6 +53,7 @@ cta:
       # counter item loop
     - title : "Manta Ray Snorkel"
       #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      purchased: true
       count : "220"
       
     - title : "Couple's Massage"
