@@ -57,8 +57,10 @@ df <- rsvp_df %>%
   add_row(State = state.abb[which(!(state.abb %in% .$State))],
           Attending = 0,
           hover = "") %>% 
-  mutate(hover = paste0(abbr2state(State), "<br>", hover))
+  mutate(hover = paste0(abbr2state(State), "<br>", hover)) %>%
+  filter(Attending > 0)
 
+# l <- list(color = toRGB("#343a40"), width = 2)
 l <- list(color = toRGB("#343a40"), width = 2)
 
 # specify some map projection/options
@@ -68,7 +70,7 @@ g <- list(
                     scale = 1),
   showlakes = F,
   # lakecolor = toRGB('white'),
-  subunitcolor = toRGB('white'),
+  subunitcolor = toRGB('transparent'),
   bgcolor = "#343a40"
 )
 p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
@@ -83,14 +85,14 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
                              outlinecolor = 'transparent'),
              colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
-  colorbar(title = 'RSVPs', limits = c(0, 25)) %>%
+  colorbar(title = 'RSVPs', limits = c(0, 35)) %>%
   add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = 0.1, 
                   text = paste("*Last updated", format(Sys.Date(), "%m/%d/%Y")),
                   showarrow = F, font = list(size = 10, color = 'white')) %>% 
   layout(geo = g,
          paper_bgcolor  = "#343a40",
          margin=list(t=0,l=0,r=0,b=0,pad=0))
-#p
+p
 htmlwidgets::saveWidget(
   as_widget(p), selfcontained = T,
   file = normalizePath("./static/rsvpmap.html"),
