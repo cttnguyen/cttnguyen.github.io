@@ -22,6 +22,7 @@ cta:
     
     # counter item loop
     - title : "Catamaran Rental"
+      purchased: true
       #icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
       count : "118"
     
