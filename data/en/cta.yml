@@ -13,6 +13,7 @@ cta:
   counter_item:
     # counter item loop
     - title : "Windsurfing Lessons"
+      purchased : true
       # icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
       count : "138"
       
