@@ -63,6 +63,8 @@ df <- rsvp_df %>%
 # l <- list(color = toRGB("#343a40"), width = 2)
 l <- list(color = toRGB("#343a40"), width = 2)
 
+color_max <- 10 * ceiling(max(df$Attending) / 10)
+
 # specify some map projection/options
 g <- list(
   scope = 'usa',
@@ -85,7 +87,7 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
                              outlinecolor = 'transparent'),
              colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
-  colorbar(title = 'RSVPs', limits = c(0, 35)) %>%
+  colorbar(title = 'RSVPs', limits = c(0, color_max)) %>%
   add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = 0.1, 
                   text = paste("*Last updated", format(Sys.Date(), "%m/%d/%Y")),
                   showarrow = F, font = list(size = 10, color = 'white')) %>% 
