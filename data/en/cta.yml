@@ -31,6 +31,7 @@ cta:
     - title : "Kayak Rental"
       #icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "39"
+      purchased: true
     
     # counter item loop
     - title : "Stand Up Paddle Board"
@@ -41,11 +42,13 @@ cta:
     - title : "Snorkeling Lesson"
       #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
       count : "98"
+      purchased: true
       
       # counter item loop
     - title : "Snorkel Safari"
       #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
       count : "118"
+      purchased: true
       
       # counter item loop
     - title : "Turtle Reef Snorkel"
