@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/cutting_board/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/covid_planning/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/new_website/</loc>
     <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/stds/</loc>
     <lastmod>2020-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/idcproposals/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/blog/welcome/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.TheLuckettest.com/7c60903edaf0efcc501c0f689c01bef2773947cc/tags/</loc>
   </url>
+  
 </urlset>
