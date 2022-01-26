@@ -54,6 +54,7 @@ cta:
     - title : "Turtle Reef Snorkel"
       #icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
       count : "98"
+      purchased: true
       
       # counter item loop
     - title : "Manta Ray Snorkel"
