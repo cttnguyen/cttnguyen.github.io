@@ -75,11 +75,17 @@ g <- list(
   subunitcolor = toRGB('transparent'),
   bgcolor = "#343a40"
 )
-p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
-             type = 'choropleth', locationmode = 'USA-states', 
+p <- plot_ly(df, 
+             z = ~Attending, 
+             text = ~hover, 
+             locations = ~State,
+             type = 'choropleth', 
+             locationmode = 'USA-states', 
              width = 500, 
-             color = ~Attending, colors = 'Blues', 
-             marker = list(line = l), hoverinfo = 'text',
+             color = ~Attending, 
+             colors = 'Blues', 
+             marker = list(line = l), 
+             hoverinfo = 'text',
              colorbar = list(title = list(text = "RSVPs"), 
                              titlefont = list(color = '#ffffff'), 
                              len = 0.75, y = 0.875, x = 0.9,
@@ -88,9 +94,13 @@ p <- plot_ly(df, z = ~Attending, text = ~hover, locations = ~State,
              colorscale = list(c(0, "white"), list(1, "#001933"))
 ) %>% 
   colorbar(title = 'RSVPs', limits = c(0, color_max)) %>%
-  add_annotations(xref = 'paper', yref = 'paper', x = 0.5, y = 0.1, 
+  add_annotations(xref = 'paper', 
+                  yref = 'paper', 
+                  x = 0.5, 
+                  y = 0.1, 
                   text = paste("*Last updated", format(Sys.Date(), "%m/%d/%Y")),
-                  showarrow = F, font = list(size = 10, color = 'white')) %>% 
+                  showarrow = F, 
+                  font = list(size = 10, color = 'white')) %>% 
   layout(geo = g,
          paper_bgcolor  = "#343a40",
          margin=list(t=0,l=0,r=0,b=0,pad=0))
