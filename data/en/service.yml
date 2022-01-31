@@ -3,6 +3,15 @@ service:
   enable : true
   title : Details
   service_item :
+    - name : Meet & Greet
+      content : |
+        Friday, February 25, 2022
+
+        Location and Time are TBD
+        
+        Just an extra chance to see and talk to
+        
+        all of you the night before the wedding!
     - name : Wedding & Reception
       # icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : |
@@ -12,22 +21,31 @@ service:
   
         22633 Park Rd, Tomball, TX 77377
 
-        Ceremony (Time TBA)
+        4 PM
         
         Dinner and Drinks to Follow
         
-    - name : Lodging
+    - name : Marriott Hotel Block
       # icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       content : |
         Element Houston Vintage Park
-        
-        $94/night 
         
         Follow _[this link](https://www.marriott.com/event-reservations/reservation-link.mi?id=1615400542682&key=GRP&app=resvlink)_ to book 
         
         Or call and mention "Nguyen-Luckett Wedding"
         
         (281) 379-7300
+        
+    - name : Hyatt Discount Code
+      # icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : |
+        Hyatt Place Houston NW Vintage Park
+        
+        Follow _[this link](https://houstonvintagepark.place.hyatt.com/en/hotel/home.html?corp_id=85917)_ to book 
+        
+        Or call and mention group number 85917 for discounts.
+        
+        (832) 930 - 8090
         
     - name : Getting Here
       # icon : ti-package # themify icon pack : https://themify.me/themify-icons
