@@ -7,11 +7,15 @@ service:
       content : |
         Friday, February 25, 2022
 
-        Location and Time are TBD
+        Location TBD
         
-        Just an extra chance to see and talk to
+        Time TBD
         
-        all of you the night before the wedding!
+        Just an extra chance for us to see all of you
+        
+        Come and join us the night before the wedding!
+        
+        
     - name : Wedding & Reception
       # icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : |
@@ -21,7 +25,7 @@ service:
   
         22633 Park Rd, Tomball, TX 77377
 
-        4 PM
+        4 o'clock in the afternoon
         
         Dinner and Drinks to Follow
         

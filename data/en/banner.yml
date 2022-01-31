@@ -6,10 +6,9 @@ banner:
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Crystal & Daniel"
   content : |
-    Are Getting Married!
-  
-    Cypress, Texas
-  
-    02/26/2022
+    02.26.2022 | Cypress, TX
+    
+  message: |
+    01/31/2022: Please see the Details and FAQ sections for updated hotel and COVID information
   button:
     enable : false

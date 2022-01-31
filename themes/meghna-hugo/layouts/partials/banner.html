@@ -6,15 +6,15 @@
 <section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
 	<!-- this image is for trigger this section fallback background image -->
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
-
 	<div class="block">
 		{{ if .icon }}
 		<div class="video-button">
 			<i class="{{ .icon }}"></i>
 		</div>
 		{{ end }}
+		<h5>{{ .message | markdownify }}</h5>
 		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
+		<h4>{{ .content | markdownify }}</h4>
 		{{ if .button.enable }}
 		{{ with .button }}
 		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>

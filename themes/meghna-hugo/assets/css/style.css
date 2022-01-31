@@ -498,6 +498,13 @@ a:hover {
   margin-top: 35px;
 }
 
+.hero-area .block h5 {
+  color: white;
+  background: red;
+  line-height: 25px;
+  margin-bottom: -30px;
+}
+
 @media (max-width: 480px) {
   .hero-area .block h1 {
     font-size: 60px;
