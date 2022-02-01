@@ -1,8 +1,6 @@
 ---
-title: "program program"
+title: 
 image: ""
-email: 
-social:
 ---
 
 ![](../../images/blog/programs_front.png)
